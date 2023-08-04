@@ -58,20 +58,29 @@ struct GameRowView: View {
                 TeamBasicView(team: game.away)
                     .frame(width: 100)
                 Spacer()
-                Text("@")
+                VStack {
+                    Text("@")
+                        .foregroundColor(.black)
+                        .fontWeight(.bold)
+                        .font(.system(size: 16))
+                    if let scheduled = game.getScheduledDate() {
+                        Text(scheduled)
+                            .foregroundColor(.gray)
+                            .fontWeight(.semibold)
+                            .font(.system(size: 12))
+                            .multilineTextAlignment(.center)
+                    }
+                    if let broadcast = game.broadcast {
+                            Image(broadcast.network.replacingOccurrences(of: "/", with: ""))
+                                .resizable()
+                                .scaledToFit()
+                                .frame(width: 40, height: 40)
+                    }
+                }
                 Spacer()
                 TeamBasicView(team: game.home)
                     .frame(width: 100)
             }.padding(.horizontal, 10)
-            
-            if let broadcast = game.broadcast {
-                HStack {
-                    Image(broadcast.network.replacingOccurrences(of: "/", with: ""))
-                        .resizable()
-                        .scaledToFit()
-                        .frame(width: 40, height: 40)
-                }
-            }
             
             Text(game.venue.name)
                 .multilineTextAlignment(.center)

@@ -81,7 +81,7 @@ struct TeamView: View {
                         .multilineTextAlignment(.center)
                 }
                 
-                RosterView(model: model)
+                RosterView(team: model.team, foregroundColor: model.foregroundColor)
                 
                 Spacer()
             }
@@ -95,39 +95,40 @@ struct TeamView: View {
 }
 
 struct RosterView: View {
-    let model: TeamViewModel
+    var team: Team
+    var foregroundColor: Color
     var body: some View {
         List {
-            let qbs = Player.filterForPositionGroup(players: model.team.players ?? [], filterParams: ["QB"])
-            PositionGroupView(players: qbs, title: "Quarterbacks", foregroundColor: model.foregroundColor)
+            let qbs = Player.filterForPositionGroup(players: team.players ?? [], filterParams: ["QB"])
+            PositionGroupView(players: qbs, title: "Quarterbacks", foregroundColor: foregroundColor)
             
-            let wrs = Player.filterForPositionGroup(players: model.team.players ?? [], filterParams: ["WR"])
-            PositionGroupView(players: wrs, title: "Wide Receivers", foregroundColor: model.foregroundColor)
+            let wrs = Player.filterForPositionGroup(players: team.players ?? [], filterParams: ["WR"])
+            PositionGroupView(players: wrs, title: "Wide Receivers", foregroundColor: foregroundColor)
             
-            let rbs = Player.filterForPositionGroup(players: model.team.players ?? [], filterParams: ["RB", "FB"])
-            PositionGroupView(players: rbs, title: "Running Backs", foregroundColor: model.foregroundColor)
+            let rbs = Player.filterForPositionGroup(players: team.players ?? [], filterParams: ["RB", "FB"])
+            PositionGroupView(players: rbs, title: "Running Backs", foregroundColor: foregroundColor)
             
-            let dl = Player.filterForPositionGroup(players: model.team.players ?? [], filterParams: ["DL", "DE", "DT", "NT"])
-            PositionGroupView(players: dl, title: "Defensive Line", foregroundColor: model.foregroundColor)
+            let dl = Player.filterForPositionGroup(players: team.players ?? [], filterParams: ["DL", "DE", "DT", "NT"])
+            PositionGroupView(players: dl, title: "Defensive Line", foregroundColor: foregroundColor)
             
-            let lb = Player.filterForPositionGroup(players: model.team.players ?? [], filterParams: ["OLB", "LB", "ILB"])
-            PositionGroupView(players: lb, title: "Line Backers", foregroundColor: model.foregroundColor)
+            let lb = Player.filterForPositionGroup(players: team.players ?? [], filterParams: ["OLB", "LB", "ILB"])
+            PositionGroupView(players: lb, title: "Line Backers", foregroundColor: foregroundColor)
             
-            let dbs = Player.filterForPositionGroup(players: model.team.players ?? [], filterParams: ["CB", "SAF"])
-            PositionGroupView(players: dbs, title: "Defensive Backs", foregroundColor: model.foregroundColor)
+            let dbs = Player.filterForPositionGroup(players: team.players ?? [], filterParams: ["CB", "SAF"])
+            PositionGroupView(players: dbs, title: "Defensive Backs", foregroundColor: foregroundColor)
             
             
-            let special = Player.filterForPositionGroup(players: model.team.players ?? [], filterParams: ["K", "P", "LS"])
-            PositionGroupView(players: special, title: "Special Teams", foregroundColor: model.foregroundColor)
+            let special = Player.filterForPositionGroup(players: team.players ?? [], filterParams: ["K", "P", "LS"])
+            PositionGroupView(players: special, title: "Special Teams", foregroundColor: foregroundColor)
             
             Section(content: {
-                ForEach(model.team.coaches ?? [], id: \.id) { coach in
+                ForEach(team.coaches ?? [], id: \.id) { coach in
                     Text(coach.full_name)
                 }
             }, header: {
                 HStack {
                     Text("Coaches")
-                        .foregroundColor(model.foregroundColor)
+                        .foregroundColor(foregroundColor)
                         .font(.system(size: 16))
                         .fontWeight(.semibold)
                         .multilineTextAlignment(.center)
