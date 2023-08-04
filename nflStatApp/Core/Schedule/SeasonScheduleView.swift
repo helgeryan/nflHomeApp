@@ -41,24 +41,28 @@ struct SeasonScheduleView: View {
                         .onChange(of: selection, perform: { _ in
                             model.year = selection
                         })
-                        
-                        List {
-                            ForEach(schedule.weeks, id: \.id, content: { week in
-                                Section(content: {
-                                    ForEach(week.games, id: \.id) { game in
-                                        GameRowView(game: game)
-                                    }
-                                }, header: {
-                                    HStack {
-                                        Text("Week \(week.title)")
-                                            .foregroundColor(.black)
-                                            .font(.system(size: 17))
-                                            .fontWeight(.semibold)
-                                    }
+                        ScrollView {
+                            
+                            LazyVStack(pinnedViews: [.sectionHeaders]) {
+                                ForEach(schedule.weeks, id: \.id, content: { week in
+                                    Section(content: {
+                                        ForEach(week.games, id: \.id) { game in
+                                            GameRowView(game: game)
+                                        }
+                                    }, header: {
+                                        HStack {
+                                            Text("Week \(week.title)")
+                                                .foregroundColor(.white)
+                                                .font(.system(size: 17))
+                                                .fontWeight(.semibold)
+                                            Spacer()
+                                        }
+                                        .padding()
+                                        .background(Color.nfl)
+                                    })
                                 })
-                            })
+                            }
                         }
-                        .tint(.clear)
                     }
                 }
             }
@@ -72,7 +76,7 @@ struct GameRowView: View {
     var body: some View {
         VStack(spacing: 8) {
             HStack {
-                TeamBasicView(team: game.away)
+                TeamBasicView(team: game.away, score: game.scoring?.away_points)
                     .frame(width: 100)
                 Spacer()
                 VStack(spacing: 6) {
@@ -95,7 +99,7 @@ struct GameRowView: View {
                     }
                 }
                 Spacer()
-                TeamBasicView(team: game.home)
+                TeamBasicView(team: game.home, score: game.scoring?.home_points)
                     .frame(width: 100)
             }.padding(.horizontal, 10)
             
@@ -110,8 +114,14 @@ struct GameRowView: View {
 
 struct TeamBasicView: View {
     let team: TrimmedTeam
+    let score: Int?
     var body: some View {
         VStack(spacing: 5) {
+            if let score = score {
+            Text("\(score)")
+                .font(.system(size: 26))
+                .fontWeight(.bold)
+            }
             if let teamName = Team.teamNames.first(where: { team.name.contains($0) }) {
                 Image(teamName)
                     .resizable()
@@ -124,6 +134,7 @@ struct TeamBasicView: View {
                 .multilineTextAlignment(.center)
                 .font(.system(size: 12))
                 .fontWeight(.semibold)
+            Spacer()
         }
     }
 }

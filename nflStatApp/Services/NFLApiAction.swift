@@ -24,7 +24,7 @@ extension NFLApiAction: NFLRouter {
         case .leagueLeaders:
             return "MockStats"
         case .schedule:
-            return "MockSchedule"
+            return "MockStats"
         case .heirarchy:
             return "MockHeirarchy"
         case .teamRoster:

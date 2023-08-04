@@ -34,6 +34,8 @@ struct Game: Codable {
     let home: TrimmedTeam
     let away: TrimmedTeam
     let broadcast: BroadCast?
+    let scoring: Scoring?
+    let weather: Weather?
     
     func getScheduledDate() -> String? {
         let inputFormatter = DateFormatter()
@@ -68,4 +70,31 @@ struct TrimmedTeam: Codable {
     let sr_id: String
     
     
+}
+
+struct Scoring: Codable {
+    let home_points: Int
+    let away_points: Int
+    let periods: [Period]
+}
+
+struct Period: Codable {
+    let period_type: String
+    let id: String
+    let number: Int
+    let sequence: Int
+    let home_points: Int
+    let away_points: Int
+}
+
+struct Weather: Codable {
+    let condition: String?
+    let humidity: Int?
+    let temp: Int?
+    let wind: Wind
+}
+
+struct Wind: Codable {
+    let speed: Int
+    let direction: String?
 }
