@@ -1,21 +1,40 @@
 //
 //  ContentView.swift
-//  nflStatApp
+//  nbaApp
 //
-//  Created by Ryan Helgeson on 8/4/23.
+//  Created by Ryan Helgeson on 8/1/23.
 //
 
 import SwiftUI
 
+
 struct ContentView: View {
+    init() {
+        UITabBar.appearance().backgroundColor = UIColor(Color.nfl)
+        UITabBar.appearance().unselectedItemTintColor = UIColor(Color.gray)
+        let appearance = UITabBarAppearance()
+        appearance.backgroundColor = UIColor(Color.nfl)
+        UITabBar.appearance().standardAppearance = appearance
+    }
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        TabView {
+            HomeView()
+                .tabItem{
+                    Label("Home", systemImage: "house")
+                }
+            HeirarchyView()
+                .tabItem{
+                    Label("Teams", systemImage: "basketball.fill")
+                }
+            
+            LeagueLeadersView()
+                .tabItem{
+                    Label("Leaders", systemImage: "trophy.fill")
+                }
+            
         }
-        .padding()
+        .tint(.white)
+            
     }
 }
 
@@ -24,3 +43,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+

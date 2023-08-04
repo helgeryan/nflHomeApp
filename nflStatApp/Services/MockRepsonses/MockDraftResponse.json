@@ -1,0 +1,1781 @@
+{
+  "draft": {
+    "id": "96517b43-ccff-428a-8906-07279b0c9922",
+    "year": 2022,
+    "start_date": "2022-06-23",
+    "end_date": "2022-06-23",
+    "status": "closed",
+    "league": {
+      "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+      "name": "nfl",
+      "alias": "nfl"
+    },
+    "broadcast": {
+      "channel": "206",
+      "network": "ABC, ESPN"
+    },
+    "venue": {
+      "name": "Barclays Center",
+      "address": "620 Atlantic Avenue",
+      "city": "Brooklyn",
+      "state": "NY",
+      "country": "USA"
+    }
+  },
+  "rounds": [
+    {
+      "id": "973714f3-4efa-4082-8cfe-f82240327cf5",
+      "number": 1,
+      "start_date": "2022-06-23",
+      "end_date": "2022-06-23",
+      "status": "closed",
+      "picks": [
+        {
+          "id": "c36e196b-03bc-418e-9d51-e90bc560b61c",
+          "number": 1,
+          "overall": 1,
+          "team": {
+            "id": "583ed157-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Magic",
+            "market": "Orlando",
+            "alias": "ORL"
+          },
+          "prospect": {
+            "id": "f255ce58-fcb9-42ea-ac22-7db70d4a03a2",
+            "source_id": "f7c8430e-5967-46d9-90b3-ae277e8eb0bc",
+            "league_id": "49d8f5ef-2867-4597-a3ab-5ffc5e651258",
+            "first_name": "Paolo",
+            "last_name": "Banchero",
+            "name": "Paolo Banchero",
+            "position": "F",
+            "team_name": "Duke",
+            "height": 82,
+            "weight": 250,
+            "experience": "FR",
+            "birth_place": "Seattle, WA, USA",
+            "top_prospect": true
+          }
+        },
+        {
+          "id": "a951d0c9-2600-4bf4-9498-04a4fb763aff",
+          "number": 2,
+          "overall": 2,
+          "team": {
+            "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Thunder",
+            "market": "Oklahoma City",
+            "alias": "OKC"
+          },
+          "prospect": {
+            "id": "0d7a2454-f611-483b-8dfd-8bcab0628b21",
+            "source_id": "bb50740a-b77e-4f43-af2f-638ed1ce02e7",
+            "league_id": "eb91a4c8-1a8a-46bf-86e6-e16950b67ef6",
+            "first_name": "Chet",
+            "last_name": "Holmgren",
+            "name": "Chet Holmgren",
+            "position": "F",
+            "team_name": "Gonzaga",
+            "height": 84,
+            "weight": 195,
+            "experience": "FR",
+            "birth_place": "Minneapolis, MN, USA",
+            "top_prospect": true
+          }
+        },
+        {
+          "id": "786cde18-631d-4ed2-9a97-22c4889e834f",
+          "number": 3,
+          "overall": 3,
+          "team": {
+            "id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Rockets",
+            "market": "Houston",
+            "alias": "HOU"
+          },
+          "prospect": {
+            "id": "39896f1a-b6f5-4ab8-bec1-e83d6d3781c8",
+            "source_id": "1dc249cf-1723-4404-b11b-8bbf867f34f1",
+            "league_id": "293be24b-3a94-40b2-a7a4-a1dd788302e9",
+            "first_name": "Jabari",
+            "last_name": "Smith",
+            "name": "Jabari Smith",
+            "position": "F",
+            "team_name": "Auburn",
+            "height": 82,
+            "weight": 220,
+            "experience": "FR",
+            "birth_place": "Fayetteville, GA, USA",
+            "top_prospect": true
+          }
+        },
+        {
+          "id": "406a5e5f-414f-4dfa-9c8e-c9976cf1dcc6",
+          "number": 4,
+          "overall": 4,
+          "team": {
+            "id": "583ed0ac-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Kings",
+            "market": "Sacramento",
+            "alias": "SAC"
+          },
+          "prospect": {
+            "id": "0245fbf2-e24f-41a7-8322-d39caf6d2b37",
+            "source_id": "be83df8e-0fb6-4ee5-9c1c-4151a5223680",
+            "league_id": "7494fbb4-5ac7-43ee-b91a-8859532f548b",
+            "first_name": "Keegan",
+            "last_name": "Murray",
+            "name": "Keegan Murray",
+            "position": "F",
+            "height": 80,
+            "weight": 225,
+            "experience": "SO",
+            "birth_place": "Cedar Rapids, IA, USA"
+          }
+        },
+        {
+          "id": "02b4ea0d-70a5-441f-b638-016eb4d8cadf",
+          "number": 5,
+          "overall": 5,
+          "team": {
+            "id": "583ec928-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pistons",
+            "market": "Detroit",
+            "alias": "DET"
+          },
+          "prospect": {
+            "id": "13687580-8680-493b-b76c-7473cd9355e8",
+            "source_id": "c82664d7-9f14-4702-9fdd-49a30abe75e2",
+            "league_id": "ec887131-efba-43a0-ad0a-0757ab3f0399",
+            "first_name": "Jaden",
+            "last_name": "Ivey",
+            "name": "Jaden Ivey",
+            "position": "G",
+            "team_name": "Purdue",
+            "height": 76,
+            "weight": 195,
+            "experience": "SO",
+            "birth_place": "South Bend, IN, USA",
+            "top_prospect": true
+          }
+        },
+        {
+          "id": "945eb326-4be2-4353-8b81-651a3e726366",
+          "number": 6,
+          "overall": 6,
+          "team": {
+            "id": "583ec7cd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pacers",
+            "market": "Indiana",
+            "alias": "IND"
+          },
+          "prospect": {
+            "id": "61cb7fd0-8078-4802-997f-f237762e5032",
+            "source_id": "7a4807ea-d86d-4af2-973e-a85c6dc594a4",
+            "league_id": "3f98b652-71d4-4a40-949d-41c33dddd15d",
+            "first_name": "Bennedict",
+            "last_name": "Mathurin",
+            "name": "Bennedict Mathurin",
+            "position": "G-F",
+            "team_name": "Arizona",
+            "height": 78,
+            "weight": 210,
+            "experience": "SO",
+            "birth_place": "Montreal, QC, CAN",
+            "top_prospect": true
+          }
+        },
+        {
+          "id": "e43e889b-38e7-49be-b302-ce8d24576968",
+          "number": 7,
+          "overall": 7,
+          "team": {
+            "id": "583ed056-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Trail Blazers",
+            "market": "Portland",
+            "alias": "POR"
+          },
+          "prospect": {
+            "id": "f2e3ac34-7dfa-4ddc-9e8d-4b69b0fe2b5c",
+            "source_id": "4ae8877f-476d-4d9b-bfe2-98fe0258834e",
+            "first_name": "Shaedon",
+            "last_name": "Sharpe",
+            "name": "Shaedon Sharpe",
+            "position": "G",
+            "team_name": "Kentucky",
+            "height": 78,
+            "weight": 200,
+            "experience": "FR",
+            "top_prospect": true
+          }
+        },
+        {
+          "id": "97a78186-f6cf-4774-b8a5-dc07eb020ebf",
+          "number": 8,
+          "overall": 8,
+          "traded": true,
+          "team": {
+            "id": "583ecc9a-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pelicans",
+            "market": "New Orleans",
+            "alias": "NOP"
+          },
+          "prospect": {
+            "id": "75ab7065-24f0-4548-b575-31599b210926",
+            "league_id": "5b28143b-9d53-45fb-9f36-a6b0253ec4d6",
+            "first_name": "Dyson",
+            "last_name": "Daniels",
+            "name": "Dyson Daniels",
+            "position": "G",
+            "team_name": "G League Ignite",
+            "height": 80,
+            "weight": 200,
+            "birth_place": "Bendigo,, AUS",
+            "top_prospect": true
+          },
+          "trades": [
+            {
+              "id": "bced26d2-2b01-41f8-8d1c-7db9e926f758"
+            }
+          ]
+        },
+        {
+          "id": "899d83f9-a7e0-4bd4-b6d7-9f014edfd315",
+          "number": 9,
+          "overall": 9,
+          "team": {
+            "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Spurs",
+            "market": "San Antonio",
+            "alias": "SAS"
+          },
+          "prospect": {
+            "id": "bfb1cfb3-c684-4a0e-9a48-2a46418e8c26",
+            "source_id": "27f09012-f6d9-448d-9fe9-38bde8d96986",
+            "league_id": "4d9e0abc-05aa-45de-be32-b0770697416a",
+            "first_name": "Jeremy",
+            "last_name": "Sochan",
+            "name": "Jeremy Sochan",
+            "position": "F",
+            "team_name": "Baylor",
+            "height": 81,
+            "weight": 230,
+            "experience": "FR",
+            "birth_place": "Milton Keynes,, GBR",
+            "top_prospect": true
+          }
+        },
+        {
+          "id": "7f361822-7564-4f3a-89d1-856b7f7a12de",
+          "number": 10,
+          "overall": 10,
+          "team": {
+            "id": "583ec8d4-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Wizards",
+            "market": "Washington",
+            "alias": "WAS"
+          },
+          "prospect": {
+            "id": "b1dc388c-e52a-48c8-ac8c-870cce0956f4",
+            "source_id": "5827d407-32c2-4994-be3e-c3a705bb51d4",
+            "league_id": "51551f58-fc52-4403-abe5-4f5614804312",
+            "first_name": "Johnny",
+            "last_name": "Davis",
+            "name": "Johnny Davis",
+            "position": "G",
+            "team_name": "Wisconsin",
+            "height": 77,
+            "weight": 194,
+            "experience": "SO",
+            "birth_place": "La Crosse, WI, USA",
+            "top_prospect": true
+          }
+        },
+        {
+          "id": "1da1e5be-4aeb-421a-b4b7-792e1d587ddd",
+          "number": 11,
+          "overall": 11,
+          "traded": true,
+          "team": {
+            "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Thunder",
+            "market": "Oklahoma City",
+            "alias": "OKC"
+          },
+          "prospect": {
+            "id": "1df36374-c91f-47d5-b5d3-4606f57e8c1e",
+            "first_name": "Ousmane",
+            "last_name": "Dieng",
+            "name": "Ousmane Dieng",
+            "position": "F",
+            "team_name": "Breakers",
+            "height": 81,
+            "weight": 216,
+            "birth_place": "Villeneuve-sur-Lot,, FRA",
+            "top_prospect": true
+          },
+          "trades": [
+            {
+              "id": "c641fcbf-362e-4bcc-a3ed-85d36ef1cae6"
+            }
+          ]
+        },
+        {
+          "id": "0c600905-2c2c-4ce4-b939-c90432bcf1ff",
+          "number": 12,
+          "overall": 12,
+          "traded": true,
+          "team": {
+            "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Thunder",
+            "market": "Oklahoma City",
+            "alias": "OKC"
+          },
+          "prospect": {
+            "id": "f5fa9c8f-191f-4446-a1ac-05de5e4079f1",
+            "source_id": "7d623d25-6821-41c6-95ec-ec74a17510bb",
+            "league_id": "62c44a90-f280-438a-9c7e-252f4f376283",
+            "first_name": "Jalen",
+            "last_name": "Williams",
+            "name": "Jalen Williams",
+            "position": "G",
+            "height": 78,
+            "weight": 190,
+            "experience": "JR",
+            "birth_place": "Long Beach, CA, USA"
+          },
+          "trades": [
+            {
+              "id": "e2c5b18e-bfc9-42db-b8e5-0b2db497f7c1"
+            }
+          ]
+        },
+        {
+          "id": "1e2c657b-4799-4b92-a6d2-c2877b64ecc0",
+          "number": 13,
+          "overall": 13,
+          "traded": true,
+          "team": {
+            "id": "583ec928-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pistons",
+            "market": "Detroit",
+            "alias": "DET"
+          },
+          "prospect": {
+            "id": "21be0290-a09f-4298-87b6-fb9a842f1488",
+            "source_id": "3ea54328-0856-4335-b07d-7dbc6d082a0a",
+            "league_id": "00fb2704-aa25-4ef7-8972-cde454810810",
+            "first_name": "Jalen",
+            "last_name": "Duren",
+            "name": "Jalen Duren",
+            "position": "C",
+            "team_name": "Memphis",
+            "height": 83,
+            "weight": 250,
+            "experience": "FR",
+            "birth_place": "Sharon Hill, PA, USA",
+            "top_prospect": true
+          },
+          "trades": [
+            {
+              "id": "b1c3c99c-b7d1-4559-b43d-b3e7b306d133"
+            },
+            {
+              "id": "4508bd93-4bd5-45b5-aec8-f1434a437e26"
+            },
+            {
+              "id": "705b254e-62cc-411c-8d76-6c6cab64864f"
+            }
+          ]
+        },
+        {
+          "id": "fa2ecb37-cbd9-4b0c-ad98-1e3aec08843e",
+          "number": 14,
+          "overall": 14,
+          "team": {
+            "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Cavaliers",
+            "market": "Cleveland",
+            "alias": "CLE"
+          },
+          "prospect": {
+            "id": "acae1930-e08c-48d5-a6f2-b5d7fb2451bc",
+            "source_id": "6c7aeb2a-036c-4928-a201-a805136803e4",
+            "league_id": "a7466782-6f87-414f-9458-7fea82922e00",
+            "first_name": "Ochai",
+            "last_name": "Agbaji",
+            "name": "Ochai Agbaji",
+            "position": "G",
+            "team_name": "Kansas",
+            "height": 77,
+            "weight": 215,
+            "experience": "SR",
+            "birth_place": "Kansas City, MO, USA",
+            "top_prospect": true
+          }
+        },
+        {
+          "id": "5672e61d-4238-4900-b9a9-1bfdd82c6fd4",
+          "number": 15,
+          "overall": 15,
+          "traded": true,
+          "team": {
+            "id": "583ec97e-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Hornets",
+            "market": "Charlotte",
+            "alias": "CHA"
+          },
+          "prospect": {
+            "id": "60fcc749-f693-44d4-b829-e4c11fb336eb",
+            "source_id": "b95ed3f2-8159-4acd-bbc9-c0af3d4de95d",
+            "league_id": "a5ec46e9-928f-4609-ab4d-c86ec6434327",
+            "first_name": "Mark",
+            "last_name": "Williams",
+            "name": "Mark Williams",
+            "position": "C",
+            "team_name": "Duke",
+            "height": 85,
+            "weight": 242,
+            "experience": "SO",
+            "birth_place": "Virginia Beach, VA, USA",
+            "top_prospect": true
+          },
+          "trades": [
+            {
+              "id": "e1d57b72-4b95-4d1c-8721-d3ae83bc763e"
+            }
+          ]
+        },
+        {
+          "id": "933af024-bedc-4ba1-8244-3b5cd918b853",
+          "number": 16,
+          "overall": 16,
+          "team": {
+            "id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Hawks",
+            "market": "Atlanta",
+            "alias": "ATL"
+          },
+          "prospect": {
+            "id": "3369ae27-95a5-41b1-bbb3-67be13259a55",
+            "source_id": "d1d28402-a0f2-4449-a869-76d191e1c487",
+            "league_id": "dff43943-07d4-44b8-b349-b5a0c327ce54",
+            "first_name": "AJ",
+            "last_name": "Griffin",
+            "name": "AJ Griffin",
+            "position": "F",
+            "team_name": "Duke",
+            "height": 78,
+            "weight": 222,
+            "experience": "FR",
+            "birth_place": "White Plains, NY, USA",
+            "top_prospect": true
+          }
+        },
+        {
+          "id": "1cbaa6de-9e06-493a-9a29-0f7ef11a180f",
+          "number": 17,
+          "overall": 17,
+          "traded": true,
+          "team": {
+            "id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Rockets",
+            "market": "Houston",
+            "alias": "HOU"
+          },
+          "prospect": {
+            "id": "dbe38533-9a55-4562-8679-cad8517dbdce",
+            "source_id": "9badd835-d8e7-4118-817b-ab0f27a8e84f",
+            "league_id": "e7373530-b566-4f36-b0de-0510b6d94e0e",
+            "first_name": "Tari",
+            "last_name": "Eason",
+            "name": "Tari Eason",
+            "position": "F",
+            "team_name": "LSU",
+            "height": 80,
+            "weight": 216,
+            "experience": "SO",
+            "birth_place": "Seattle, WA, USA",
+            "top_prospect": true
+          },
+          "trades": [
+            {
+              "id": "7e54556b-2d7b-4221-aa15-ef700ed38b36"
+            }
+          ]
+        },
+        {
+          "id": "d835ff2c-c9ed-4c60-8e3f-8292ac0549fd",
+          "number": 18,
+          "overall": 18,
+          "team": {
+            "id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Bulls",
+            "market": "Chicago",
+            "alias": "CHI"
+          },
+          "prospect": {
+            "id": "1fff96c8-80df-4588-aa37-e8d17c5dc31e",
+            "source_id": "fef5c214-c72c-4615-8984-2cef29610884",
+            "league_id": "39d205a6-5a8e-4656-9565-87a8e95ee411",
+            "first_name": "Dalen",
+            "last_name": "Terry",
+            "name": "Dalen Terry",
+            "position": "G",
+            "height": 79,
+            "weight": 195,
+            "experience": "SO",
+            "birth_place": "South Phoenix, AZ, USA"
+          }
+        },
+        {
+          "id": "38d8117d-e5d3-49ee-8da4-995109e270d1",
+          "number": 19,
+          "overall": 19,
+          "traded": true,
+          "team": {
+            "id": "583eca88-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Grizzlies",
+            "market": "Memphis",
+            "alias": "MEM"
+          },
+          "prospect": {
+            "id": "267362bd-e2b3-466d-9dcd-f270a94c78f2",
+            "source_id": "91f09caa-184c-4a43-87b6-0902235a03ca",
+            "league_id": "cbea1c03-1ac9-4afa-8fdc-2d7155ea5583",
+            "first_name": "Jake",
+            "last_name": "LaRavia",
+            "name": "Jake LaRavia",
+            "position": "G-F",
+            "height": 80,
+            "weight": 235,
+            "experience": "JR",
+            "birth_place": "Indianapolis, IN, USA"
+          },
+          "trades": [
+            {
+              "id": "dbc33c0c-9519-471b-8393-97dceedc69c4"
+            }
+          ]
+        },
+        {
+          "id": "6e48d340-07fa-421e-b879-b832d2a6015e",
+          "number": 20,
+          "overall": 20,
+          "traded": true,
+          "team": {
+            "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Spurs",
+            "market": "San Antonio",
+            "alias": "SAS"
+          },
+          "prospect": {
+            "id": "af8cd669-a803-40b2-9786-14adda6df305",
+            "source_id": "d3deadca-f6a9-4e66-91e4-448f092aad7e",
+            "league_id": "ecdd201a-e33b-476e-9325-296cad22ba93",
+            "first_name": "Malaki",
+            "last_name": "Branham",
+            "name": "Malaki Branham",
+            "position": "G",
+            "team_name": "Ohio State",
+            "height": 77,
+            "weight": 180,
+            "experience": "FR",
+            "birth_place": "Akron, OH, USA",
+            "top_prospect": true
+          },
+          "trades": [
+            {
+              "id": "c9e41f54-0e7c-4a9c-be3b-b593c2dea562"
+            }
+          ]
+        },
+        {
+          "id": "fe0c289d-4d1b-4577-bc1a-3439e8de5861",
+          "number": 21,
+          "overall": 21,
+          "team": {
+            "id": "583ed102-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Nuggets",
+            "market": "Denver",
+            "alias": "DEN"
+          },
+          "prospect": {
+            "id": "d7f59431-523f-4305-b968-5c28bcde3a43",
+            "source_id": "9dbd2e09-ed28-46e8-a2b6-a558a8c3ce56",
+            "league_id": "cbc1a455-6cf8-4174-ace6-b0e250936f74",
+            "first_name": "Christian",
+            "last_name": "Braun",
+            "name": "Christian Braun",
+            "position": "G",
+            "height": 79,
+            "weight": 218,
+            "experience": "JR",
+            "birth_place": "Burlington, KS, USA"
+          }
+        },
+        {
+          "id": "414e2dda-ab7b-4610-929b-4711a464a394",
+          "number": 22,
+          "overall": 22,
+          "traded": true,
+          "team": {
+            "id": "583eca2f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Timberwolves",
+            "market": "Minnesota",
+            "alias": "MIN"
+          },
+          "prospect": {
+            "id": "83d73c44-7ddf-483d-9295-965a10afd5af",
+            "source_id": "50f9f50c-50fc-4543-bcfb-83624b3b9609",
+            "league_id": "7eccbdf9-58a3-4b96-8b1e-eaa8ea9da836",
+            "first_name": "Walker",
+            "last_name": "Kessler",
+            "name": "Walker Kessler",
+            "position": "F-C",
+            "height": 85,
+            "weight": 245,
+            "experience": "SO",
+            "birth_place": "Newnan, GA, USA"
+          },
+          "trades": [
+            {
+              "id": "dbc33c0c-9519-471b-8393-97dceedc69c4"
+            },
+            {
+              "id": "d1823d44-425f-45b7-bfa1-87b8627f9149"
+            }
+          ]
+        },
+        {
+          "id": "23699d64-9849-4e57-971f-92e71358d935",
+          "number": 23,
+          "overall": 23,
+          "traded": true,
+          "team": {
+            "id": "583eca88-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Grizzlies",
+            "market": "Memphis",
+            "alias": "MEM"
+          },
+          "prospect": {
+            "id": "2f481a39-a6a7-4821-83aa-8d44bf369d4e",
+            "source_id": "ccc9c027-6daa-4ec8-abbd-19116d05cbb0",
+            "league_id": "339eff07-4d8e-42c6-9a47-900e94b13654",
+            "first_name": "David",
+            "last_name": "Roddy",
+            "name": "David Roddy",
+            "position": "G-F",
+            "height": 78,
+            "weight": 255,
+            "experience": "JR",
+            "birth_place": "Minneapolis, MN, USA"
+          },
+          "trades": [
+            {
+              "id": "97a3222c-d5cb-44d2-bdc0-ce72bc87464e"
+            }
+          ]
+        },
+        {
+          "id": "d9169884-262d-4fc0-b78a-eb2880f340d0",
+          "number": 24,
+          "overall": 24,
+          "traded": true,
+          "team": {
+            "id": "583ecefd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Bucks",
+            "market": "Milwaukee",
+            "alias": "MIL"
+          },
+          "prospect": {
+            "id": "f0ee67d9-30a6-49a0-9ce3-e90456b82de8",
+            "first_name": "MarJon",
+            "last_name": "Beauchamp",
+            "name": "MarJon Beauchamp",
+            "position": "G",
+            "team_name": "G League Ignite",
+            "height": 78,
+            "weight": 199,
+            "birth_place": "Yakima, WA, USA",
+            "top_prospect": false
+          },
+          "trades": [
+            {
+              "id": "2ad4178b-d859-476e-8872-949185337fa0"
+            },
+            {
+              "id": "f81767bd-7490-4233-aa19-915ef0fffc04"
+            },
+            {
+              "id": "83f3c361-58ed-412f-8a13-a3c12607cafe"
+            }
+          ]
+        },
+        {
+          "id": "e0444a37-1ad4-41a4-bb24-63134a00b348",
+          "number": 25,
+          "overall": 25,
+          "traded": true,
+          "team": {
+            "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Spurs",
+            "market": "San Antonio",
+            "alias": "SAS"
+          },
+          "prospect": {
+            "id": "7e5f79af-77ee-4409-b771-2c58ec5091f5",
+            "source_id": "ff2c6227-d84c-4dbd-ba8e-87b06189b764",
+            "league_id": "08baba55-bec0-4494-95ce-28778c37a981",
+            "first_name": "Blake",
+            "last_name": "Wesley",
+            "name": "Blake Wesley",
+            "position": "G",
+            "height": 77,
+            "weight": 185,
+            "experience": "FR",
+            "birth_place": "South Bend, IN, USA"
+          },
+          "trades": [
+            {
+              "id": "fe8475fc-e9b2-4aa0-848b-fd4bd7478636"
+            }
+          ]
+        },
+        {
+          "id": "56db728e-d517-407b-8834-146070879f04",
+          "number": 26,
+          "overall": 26,
+          "traded": true,
+          "team": {
+            "id": "583eca2f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Timberwolves",
+            "market": "Minnesota",
+            "alias": "MIN"
+          },
+          "prospect": {
+            "id": "e04026da-11df-4067-b992-4310b9c4a2c8",
+            "source_id": "2b5797ed-f72e-474d-9684-960902b8307a",
+            "league_id": "e23521cd-8e92-4701-b9e7-dc4acd21dfec",
+            "first_name": "Wendell",
+            "last_name": "Moore",
+            "name": "Wendell Moore Jr.",
+            "position": "F",
+            "height": 77,
+            "weight": 213,
+            "experience": "JR",
+            "birth_place": "Charlotte, NC, USA"
+          },
+          "trades": [
+            {
+              "id": "f8568cf0-7483-4b71-b55b-ed9b03a752f5"
+            },
+            {
+              "id": "e57547f1-6e37-4ea9-a570-d32ece32108f"
+            },
+            {
+              "id": "4ea564e2-2649-4730-83c0-613d9a14dc8e"
+            }
+          ]
+        },
+        {
+          "id": "b7cf400f-ba2b-4494-ba4c-ad48bf8c814c",
+          "number": 27,
+          "overall": 27,
+          "team": {
+            "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Heat",
+            "market": "Miami",
+            "alias": "MIA"
+          },
+          "prospect": {
+            "id": "898a3c6c-5b7b-4948-9407-23f09713d366",
+            "first_name": "Nikola",
+            "last_name": "Jovic",
+            "name": "Nikola Jovic",
+            "position": "F",
+            "team_name": "Mega",
+            "height": 82,
+            "weight": 223,
+            "birth_place": "Leicester,, GBR",
+            "top_prospect": false
+          }
+        },
+        {
+          "id": "8139a9cd-b6ae-4aba-bc1f-8020d3df4398",
+          "number": 28,
+          "overall": 28,
+          "team": {
+            "id": "583ec825-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Warriors",
+            "market": "Golden State",
+            "alias": "GSW"
+          },
+          "prospect": {
+            "id": "bf3f6b56-5400-4e91-96dc-c1839bac28fa",
+            "source_id": "d3265e28-c706-4906-b8e3-532d57bf616f",
+            "league_id": "003883ca-cd7e-4b58-99d7-6fef54afdfeb",
+            "first_name": "Patrick",
+            "last_name": "Baldwin",
+            "name": "Patrick Baldwin Jr.",
+            "position": "G",
+            "team_name": "Milwaukee",
+            "height": 81,
+            "weight": 220,
+            "experience": "FR",
+            "birth_place": "Sussex, WI, USA",
+            "top_prospect": true
+          }
+        },
+        {
+          "id": "caaae7d6-61e4-410d-b493-3b9fcc64ed27",
+          "number": 29,
+          "overall": 29,
+          "traded": true,
+          "team": {
+            "id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Rockets",
+            "market": "Houston",
+            "alias": "HOU"
+          },
+          "prospect": {
+            "id": "74e0300d-4905-40b0-aa55-b5ceaed3836c",
+            "source_id": "7dc4c9fa-ba9a-4a02-a5b9-29e2d2df1f80",
+            "league_id": "3054d6e1-033b-4b8d-93e5-b807ea122c75",
+            "first_name": "TyTy",
+            "last_name": "Washington",
+            "name": "TyTy Washington Jr.",
+            "position": "G",
+            "team_name": "Kentucky",
+            "height": 75,
+            "weight": 197,
+            "experience": "FR",
+            "birth_place": "Phoenix, AZ, USA",
+            "top_prospect": true
+          },
+          "trades": [
+            {
+              "id": "93095405-e0a0-4738-be2b-1268efd449f0"
+            },
+            {
+              "id": "dbc33c0c-9519-471b-8393-97dceedc69c4"
+            }
+          ]
+        },
+        {
+          "id": "0b1e2643-9f9d-41d0-aaea-a5c3ddb8fb22",
+          "number": 30,
+          "overall": 30,
+          "traded": true,
+          "team": {
+            "id": "583ed102-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Nuggets",
+            "market": "Denver",
+            "alias": "DEN"
+          },
+          "prospect": {
+            "id": "9bbf55c7-3126-4e23-8628-a72c20f3cb11",
+            "source_id": "9bd8292d-9005-43c6-8417-7d2042a02deb",
+            "league_id": "abfc35ea-baf0-4aff-b69a-30732ddf2b1b",
+            "first_name": "Peyton",
+            "last_name": "Watson",
+            "name": "Peyton Watson",
+            "position": "G",
+            "height": 80,
+            "weight": 200,
+            "experience": "FR",
+            "birth_place": "Long Beach, CA, USA"
+          },
+          "trades": [
+            {
+              "id": "2baab205-1aab-4668-a5d1-fda3e0713aff"
+            },
+            {
+              "id": "9f41ed75-5bb0-407b-8e98-639978d763ef"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "27b93f2c-95fb-4ba6-80ea-d50c95f7d1a4",
+      "number": 2,
+      "start_date": "2022-06-23",
+      "end_date": "2022-06-23",
+      "status": "closed",
+      "picks": [
+        {
+          "id": "bf5212db-84d2-4482-affc-c362c7a8e2a9",
+          "number": 1,
+          "overall": 31,
+          "traded": true,
+          "team": {
+            "id": "583ec7cd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pacers",
+            "market": "Indiana",
+            "alias": "IND"
+          },
+          "prospect": {
+            "id": "f7609e2a-ca00-4a6c-a8f0-aab029afb742",
+            "source_id": "06ff5ebb-9526-4f81-9ef2-5b26084eb646",
+            "league_id": "02acc094-76ab-4b3e-b51d-a351a9bab6b9",
+            "first_name": "Andrew",
+            "last_name": "Nembhard",
+            "name": "Andrew Nembhard",
+            "position": "G",
+            "height": 77,
+            "weight": 193,
+            "experience": "SR",
+            "birth_place": "Aurora, ON, CAN"
+          },
+          "trades": [
+            {
+              "id": "2fce252c-7716-4534-9089-54705a38e566"
+            },
+            {
+              "id": "5b941fa9-0484-4bfd-90d0-089a9247b5a5"
+            }
+          ]
+        },
+        {
+          "id": "1c283d71-074c-4e8c-a467-bb89464d238d",
+          "number": 2,
+          "overall": 32,
+          "team": {
+            "id": "583ed157-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Magic",
+            "market": "Orlando",
+            "alias": "ORL"
+          },
+          "prospect": {
+            "id": "dde6e606-1102-47ef-9ef8-fa075ddb19be",
+            "source_id": "e1744aab-c91d-43cf-b657-804d503e6e84",
+            "league_id": "968ecb8b-c8b6-4fe1-a606-346f7a82a7c1",
+            "first_name": "Caleb",
+            "last_name": "Houstan",
+            "name": "Caleb Houstan",
+            "position": "G-F",
+            "height": 80,
+            "weight": 205,
+            "experience": "FR",
+            "birth_place": "Mississauga, ON, CAN"
+          }
+        },
+        {
+          "id": "8e89b10e-f370-48ca-a230-46680571d6aa",
+          "number": 3,
+          "overall": 33,
+          "traded": true,
+          "team": {
+            "id": "583ecda6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Raptors",
+            "market": "Toronto",
+            "alias": "TOR"
+          },
+          "prospect": {
+            "id": "6fe635ff-7820-40e7-8ed4-35bf110c0066",
+            "source_id": "599e03e8-fbf4-43ba-ae22-c1ab3d505ce4",
+            "league_id": "ed643452-917d-40c5-badd-2e72958b059c",
+            "first_name": "Christian",
+            "last_name": "Koloko",
+            "name": "Christian Koloko",
+            "position": "C",
+            "height": 85,
+            "weight": 230,
+            "experience": "JR",
+            "birth_place": "Douala,, CMR"
+          },
+          "trades": [
+            {
+              "id": "f81ca060-ae69-490c-9165-75adadcd3c3f"
+            },
+            {
+              "id": "248bb392-7cc9-4355-a8ca-81c7be1a3023"
+            },
+            {
+              "id": "69b37b60-cb83-4406-95c8-fd1b2d4be681"
+            },
+            {
+              "id": "aac3011d-f91a-43ae-b817-8bff29a92da4"
+            }
+          ]
+        },
+        {
+          "id": "4442ee23-0de7-4ec3-87d2-6cf88818647a",
+          "number": 4,
+          "overall": 34,
+          "team": {
+            "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Thunder",
+            "market": "Oklahoma City",
+            "alias": "OKC"
+          },
+          "prospect": {
+            "id": "513e8300-abb3-4da1-9a03-1e344ef49a7a",
+            "source_id": "e90e8ff1-e6ff-48fb-9c0d-87505e68d957",
+            "league_id": "4965ef48-7aa9-4eae-a923-5023ff7ab1eb",
+            "first_name": "Jaylin",
+            "last_name": "Williams",
+            "name": "Jaylin Williams",
+            "position": "F",
+            "height": 82,
+            "weight": 240,
+            "experience": "SO",
+            "birth_place": "Fort Smith, AR, USA"
+          }
+        },
+        {
+          "id": "099c572c-dcf8-49f0-add9-3da4f520a583",
+          "number": 5,
+          "overall": 35,
+          "traded": true,
+          "team": {
+            "id": "583ecae2-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Lakers",
+            "market": "Los Angeles",
+            "alias": "LAL"
+          },
+          "prospect": {
+            "id": "a9ada050-e230-4040-af38-035e51c56dad",
+            "source_id": "372370d8-68f0-4977-a2f4-b0db4fa43e11",
+            "league_id": "e872cdaf-5d04-45c2-bbfe-d673f3fb26ce",
+            "first_name": "Max",
+            "last_name": "Christie",
+            "name": "Max Christie",
+            "position": "G",
+            "height": 78,
+            "weight": 190,
+            "experience": "FR",
+            "birth_place": "Arlington Heights, IL, USA"
+          },
+          "trades": [
+            {
+              "id": "b19210f2-22e7-449d-b49d-7fa9d09a3b36"
+            },
+            {
+              "id": "461b8253-779e-47f3-81b2-ba14186c1196"
+            },
+            {
+              "id": "7fd075f7-4807-47a4-ae0b-54f7f0062909"
+            }
+          ]
+        },
+        {
+          "id": "b7fd0ecb-13f1-4fe3-a159-c5c84f5f3e39",
+          "number": 6,
+          "overall": 36,
+          "traded": true,
+          "team": {
+            "id": "583ec928-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pistons",
+            "market": "Detroit",
+            "alias": "DET"
+          },
+          "prospect": {
+            "id": "20f27b29-450e-4eea-a731-2027a9b1b6ec",
+            "first_name": "Gabriele",
+            "last_name": "Procida",
+            "name": "Gabriele Procida",
+            "position": "G",
+            "team_name": "Fortitudo Bologna",
+            "height": 78,
+            "weight": 194,
+            "birth_place": "Como,, ITA",
+            "top_prospect": false
+          },
+          "trades": [
+            {
+              "id": "f00810e9-726c-473e-b0c7-05dcdbcff4d8"
+            }
+          ]
+        },
+        {
+          "id": "8df00346-12e3-4c1d-871b-8fcd8895edb6",
+          "number": 7,
+          "overall": 37,
+          "traded": true,
+          "team": {
+            "id": "583ecf50-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Mavericks",
+            "market": "Dallas",
+            "alias": "DAL"
+          },
+          "prospect": {
+            "id": "4257ffb2-4e1c-4b3b-b67d-eb3595686219",
+            "first_name": "Jaden",
+            "last_name": "Hardy",
+            "name": "Jaden Hardy",
+            "position": "G",
+            "high_school": "Coronado (NV)",
+            "height": 76,
+            "weight": 198,
+            "birth_place": "Detroit, MI, USA",
+            "top_prospect": false
+          },
+          "trades": [
+            {
+              "id": "4ef5aec1-1c47-4d31-9bea-dd8ebe5e0ad3"
+            }
+          ]
+        },
+        {
+          "id": "fcb7576b-c334-4d76-828e-3d3d422569fb",
+          "number": 8,
+          "overall": 38,
+          "traded": true,
+          "team": {
+            "id": "583eca88-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Grizzlies",
+            "market": "Memphis",
+            "alias": "MEM"
+          },
+          "prospect": {
+            "id": "0b377ea2-a827-4501-8127-382c6168cca4",
+            "source_id": "a11578e2-0e20-4924-9d9d-c475d5f16f4c",
+            "league_id": "931f7ae2-4ce4-49e6-a3ad-e24790469fec",
+            "first_name": "Kennedy",
+            "last_name": "Chandler",
+            "name": "Kennedy Chandler",
+            "position": "G",
+            "height": 72,
+            "weight": 171,
+            "experience": "FR",
+            "birth_place": "Memphis, TN, USA"
+          },
+          "trades": [
+            {
+              "id": "66ee7fe9-163e-462e-b6d5-e7f655902c96"
+            },
+            {
+              "id": "a72125a6-7b96-41f2-9034-902180cf075c"
+            },
+            {
+              "id": "4f058f22-de24-4bb0-a1ff-f41130ee6d20"
+            },
+            {
+              "id": "fa6ab0cb-fbf3-4263-a525-cbb308225583"
+            }
+          ]
+        },
+        {
+          "id": "2437c78c-9eab-4645-b9f8-844407fb4a4e",
+          "number": 9,
+          "overall": 39,
+          "traded": true,
+          "team": {
+            "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Cavaliers",
+            "market": "Cleveland",
+            "alias": "CLE"
+          },
+          "prospect": {
+            "id": "6c896e29-50cc-434d-8ef1-20bc1f386774",
+            "first_name": "Khalifa",
+            "last_name": "Diop",
+            "name": "Khalifa Diop",
+            "position": "C",
+            "team_name": "Gran Canaria",
+            "height": 85,
+            "weight": 231,
+            "birth_place": "Guereo,, SEN",
+            "top_prospect": false
+          },
+          "trades": [
+            {
+              "id": "4c692550-2dc5-422c-b24e-7dff93ea0d1b"
+            },
+            {
+              "id": "df61a109-5ac1-41d2-9609-b8afc31fe8db"
+            }
+          ]
+        },
+        {
+          "id": "38bda6b0-8a09-4299-bbe1-88b437bb1341",
+          "number": 10,
+          "overall": 40,
+          "traded": true,
+          "team": {
+            "id": "583ec97e-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Hornets",
+            "market": "Charlotte",
+            "alias": "CHA"
+          },
+          "prospect": {
+            "id": "1f032e67-3b44-450f-bc53-998e32d453e9",
+            "source_id": "1904ef71-c18d-4845-aec4-223ef8b0c03d",
+            "league_id": "3c4a7fda-fca3-4a68-9886-ea7eec4cc2e3",
+            "first_name": "Bryce",
+            "last_name": "McGowens",
+            "name": "Bryce McGowens",
+            "position": "G",
+            "height": 79,
+            "weight": 179,
+            "experience": "FR",
+            "birth_place": "Pendleton, SC, USA"
+          },
+          "trades": [
+            {
+              "id": "ca5a5381-ac14-4382-abbf-25461b77207c"
+            },
+            {
+              "id": "163eb5ab-99d3-449a-b85d-5848e3e855bc"
+            },
+            {
+              "id": "caa2fbde-3a94-444a-90a3-68210a73c945"
+            }
+          ]
+        },
+        {
+          "id": "6de7f9db-36de-4624-bad8-32b93dfbb89d",
+          "number": 11,
+          "overall": 41,
+          "team": {
+            "id": "583ecc9a-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pelicans",
+            "market": "New Orleans",
+            "alias": "NOP"
+          },
+          "prospect": {
+            "id": "9a78852b-9190-47f6-954e-a2bbea7e3ab3",
+            "source_id": "ea7c5b87-f3ba-4d4e-be5a-57e275f29c63",
+            "league_id": "e140d6c7-351e-4937-84cd-66af4b8d617d",
+            "first_name": "E.J.",
+            "last_name": "Liddell",
+            "name": "E.J. Liddell",
+            "position": "F",
+            "team_name": "Ohio State",
+            "height": 79,
+            "weight": 240,
+            "experience": "JR",
+            "birth_place": "Belleville, IL, USA",
+            "top_prospect": true
+          }
+        },
+        {
+          "id": "a9b58817-2f63-422d-a1ef-d74c8d85d83a",
+          "number": 12,
+          "overall": 42,
+          "team": {
+            "id": "583ec70e-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Knicks",
+            "market": "New York",
+            "alias": "NYK"
+          },
+          "prospect": {
+            "id": "791e8f6c-1d8d-46a4-8efb-0d9925deb25e",
+            "source_id": "66989287-4e63-4163-bf73-ecd0b69faee1",
+            "league_id": "a63fc9c7-2675-486f-902f-702cca020ee1",
+            "first_name": "Trevor",
+            "last_name": "Keels",
+            "name": "Trevor Keels",
+            "position": "G",
+            "height": 77,
+            "weight": 221,
+            "experience": "FR",
+            "birth_place": "Clinton, MD, USA"
+          }
+        },
+        {
+          "id": "f3e3fbd4-b2cf-42f4-af91-837ce4c354f2",
+          "number": 13,
+          "overall": 43,
+          "team": {
+            "id": "583ecdfb-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Clippers",
+            "market": "LA",
+            "alias": "LAC"
+          },
+          "prospect": {
+            "id": "19815e4a-6681-4c41-9b25-0c3b6531fe6e",
+            "source_id": "f3143798-2efa-4c37-8f71-91ccd298a2f0",
+            "league_id": "78dc76b4-a810-4e4a-9418-5cf3fa03582f",
+            "first_name": "Moussa",
+            "last_name": "Diabate",
+            "name": "Moussa Diabate",
+            "position": "F",
+            "height": 83,
+            "weight": 210,
+            "experience": "FR",
+            "birth_place": "Paris,, FRA"
+          }
+        },
+        {
+          "id": "1b352f8c-0356-4cc1-94be-c91ec1aeda0e",
+          "number": 14,
+          "overall": 44,
+          "traded": true,
+          "team": {
+            "id": "583ec825-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Warriors",
+            "market": "Golden State",
+            "alias": "GSW"
+          },
+          "prospect": {
+            "id": "597fc238-3224-4213-9fd0-e51e4036d62b",
+            "source_id": "859ba5a3-a987-429c-9f4e-33977d6558e3",
+            "league_id": "e8def95a-cdf0-423f-9cac-a3e7e92364db",
+            "first_name": "Ryan",
+            "last_name": "Rollins",
+            "name": "Ryan Rollins",
+            "position": "G",
+            "height": 76,
+            "weight": 180,
+            "experience": "SO",
+            "birth_place": "Macomb, MI, USA"
+          },
+          "trades": [
+            {
+              "id": "87311956-f8d0-40c7-bf5e-c4c31811b668"
+            }
+          ]
+        },
+        {
+          "id": "02bf2123-645f-4931-a6f4-a8027befc267",
+          "number": 15,
+          "overall": 45,
+          "traded": true,
+          "team": {
+            "id": "583eca2f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Timberwolves",
+            "market": "Minnesota",
+            "alias": "MIN"
+          },
+          "prospect": {
+            "id": "bc9b630b-dc80-41c5-8fae-93856896632c",
+            "source_id": "8e55d7fd-9ddf-4638-bde8-ab57be34c314",
+            "league_id": "c4cf8fb6-b7de-45f2-b9f9-9365b8f2f2ed",
+            "first_name": "Josh",
+            "last_name": "Minott",
+            "name": "Josh Minott",
+            "position": "G",
+            "height": 80,
+            "weight": 205,
+            "experience": "FR",
+            "birth_place": "Boca Raton, FL, USA"
+          },
+          "trades": [
+            {
+              "id": "9eebc809-f2a3-464f-8bc2-93fdf8245c13"
+            }
+          ]
+        },
+        {
+          "id": "0f6e47fc-fcc3-460a-8abb-fc65f33ca2fe",
+          "number": 16,
+          "overall": 46,
+          "traded": true,
+          "team": {
+            "id": "583ed102-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Nuggets",
+            "market": "Denver",
+            "alias": "DEN"
+          },
+          "prospect": {
+            "id": "cbf92bdf-f28c-4f59-a1af-86c36e0f4964",
+            "first_name": "Ismael",
+            "last_name": "Kamagate",
+            "name": "Ismael Kamagate",
+            "position": "C",
+            "team_name": "Paris",
+            "height": 83,
+            "weight": 220,
+            "birth_place": "Paris,, FRA",
+            "top_prospect": false
+          },
+          "trades": [
+            {
+              "id": "f00810e9-726c-473e-b0c7-05dcdbcff4d8"
+            },
+            {
+              "id": "65c9fd98-a570-43dc-b397-efdcc12eb42f"
+            },
+            {
+              "id": "e027e005-7f1c-4a46-833e-398e25bf4924"
+            }
+          ]
+        },
+        {
+          "id": "7818dc9e-3bde-4988-ac55-63437ae559a1",
+          "number": 17,
+          "overall": 47,
+          "traded": true,
+          "team": {
+            "id": "583eca88-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Grizzlies",
+            "market": "Memphis",
+            "alias": "MEM"
+          },
+          "prospect": {
+            "id": "612c8d29-e286-41fc-b238-7ad2b84e1b91",
+            "source_id": "9c4129e1-1804-4384-bb59-6de6be6e406f",
+            "league_id": "0e5eb37e-e112-4587-98d8-8a9b46254f28",
+            "first_name": "Vince",
+            "last_name": "Williams",
+            "name": "Vince Williams Jr.",
+            "position": "F",
+            "height": 78,
+            "weight": 205,
+            "experience": "SR",
+            "birth_place": "Toledo, OH, USA"
+          },
+          "trades": [
+            {
+              "id": "6965f139-bc02-4d56-ada6-6e95eed6a647"
+            },
+            {
+              "id": "f05f7a79-47bd-4b16-88fa-ed20c8ba90b6"
+            },
+            {
+              "id": "1e745f7b-3aff-46ad-8c3d-cd748a67cb71"
+            }
+          ]
+        },
+        {
+          "id": "34c42271-fbff-464c-8219-b475af87320e",
+          "number": 18,
+          "overall": 48,
+          "traded": true,
+          "team": {
+            "id": "583ec7cd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pacers",
+            "market": "Indiana",
+            "alias": "IND"
+          },
+          "prospect": {
+            "id": "6a9c4073-c27d-408d-9ccd-425567fe2c88",
+            "source_id": "a9ea005b-d389-4d97-a700-4aa8be03df7f",
+            "league_id": "298fa611-756c-4b05-8930-b5ff2fec5640",
+            "first_name": "Kendall",
+            "last_name": "Brown",
+            "name": "Kendall Brown",
+            "position": "G-F",
+            "height": 80,
+            "weight": 205,
+            "experience": "FR",
+            "birth_place": "Cottage Grove, MN, USA"
+          },
+          "trades": [
+            {
+              "id": "a85e8673-03a4-40ff-b1d9-58405d19dbae"
+            }
+          ]
+        },
+        {
+          "id": "a9ebc459-6a8c-4755-a31a-a1e9c1cf6ef5",
+          "number": 19,
+          "overall": 49,
+          "traded": true,
+          "team": {
+            "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Cavaliers",
+            "market": "Cleveland",
+            "alias": "CLE"
+          },
+          "prospect": {
+            "id": "61c6e318-bf99-4e70-ab44-ef08bbf43dde",
+            "source_id": "eaff6c36-dda0-467a-8caf-e57ef0dfdf5a",
+            "league_id": "af4bed90-a355-44e6-a5b7-38c479f4a2b4",
+            "first_name": "Isaiah",
+            "last_name": "Mobley",
+            "name": "Isaiah Mobley",
+            "position": "F",
+            "height": 82,
+            "weight": 240,
+            "experience": "JR",
+            "birth_place": "Murrieta, CA, USA"
+          },
+          "trades": [
+            {
+              "id": "da6e5362-b1e1-43e9-9c8d-1bfa10148562"
+            },
+            {
+              "id": "df837312-1aca-4c84-9ed4-eaecdf442697"
+            },
+            {
+              "id": "7f4b2eba-ed07-4435-bbd3-5d4d30c92667"
+            },
+            {
+              "id": "9a13ae18-4af8-4a24-b851-eac11edee8f7"
+            }
+          ]
+        },
+        {
+          "id": "ff88f70c-05c4-48cb-a46b-051e47edf9a4",
+          "number": 20,
+          "overall": 50,
+          "traded": true,
+          "team": {
+            "id": "583eca2f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Timberwolves",
+            "market": "Minnesota",
+            "alias": "MIN"
+          },
+          "prospect": {
+            "id": "168db458-6f98-4033-a484-998d45fbe094",
+            "first_name": "Matteo",
+            "last_name": "Spagnolo",
+            "name": "Matteo Spagnolo",
+            "position": "G",
+            "team_name": "Cremona",
+            "height": 76,
+            "weight": 196,
+            "birth_place": "Brindisi,, ITA",
+            "top_prospect": false
+          },
+          "trades": [
+            {
+              "id": "97dd9f24-e083-44fd-8dd0-1971de813127"
+            },
+            {
+              "id": "83e800fd-cf2e-4af3-b610-b5ed8c910027"
+            }
+          ]
+        },
+        {
+          "id": "a2e74ac5-3f5f-4ccb-b65a-cc9079fd955f",
+          "number": 21,
+          "overall": 51,
+          "traded": true,
+          "team": {
+            "id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Hawks",
+            "market": "Atlanta",
+            "alias": "ATL"
+          },
+          "prospect": {
+            "id": "52264100-da2d-46d0-904f-2a590694c253",
+            "source_id": "7e8eeddd-a35c-4ed8-afb9-9ea71b0dd3a1",
+            "league_id": "f871af48-952a-42e3-82da-7cad157b486c",
+            "first_name": "Tyrese",
+            "last_name": "Martin",
+            "name": "Tyrese Martin",
+            "position": "G",
+            "height": 78,
+            "weight": 215,
+            "experience": "SR",
+            "birth_place": "Allentown, PA, USA"
+          },
+          "trades": [
+            {
+              "id": "682d5957-59b5-4922-8327-bededc8ca569"
+            },
+            {
+              "id": "d590c28f-2ed2-4472-9cc7-6b7496e6d2eb"
+            },
+            {
+              "id": "74120fe5-489b-4e15-88b1-2706dc3646a2"
+            }
+          ]
+        },
+        {
+          "id": "042f3ef9-71ef-4ac8-9bea-74840d997979",
+          "number": 22,
+          "overall": 52,
+          "traded": true,
+          "team": {
+            "id": "583ecc9a-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pelicans",
+            "market": "New Orleans",
+            "alias": "NOP"
+          },
+          "prospect": {
+            "id": "2e52f7d2-19c9-4d56-ad7a-4e6feb596728",
+            "first_name": "Karlo",
+            "last_name": "Matkovic",
+            "name": "Karlo Matkovic",
+            "position": "F",
+            "team_name": "Mega",
+            "height": 82,
+            "weight": 231,
+            "birth_place": "Livno,, BIH",
+            "top_prospect": false
+          },
+          "trades": [
+            {
+              "id": "b44fc219-a51c-4ee7-bed3-48230440e7b1"
+            }
+          ]
+        },
+        {
+          "id": "3e19f3da-aabe-453f-a802-eb0ad045d3b9",
+          "number": 23,
+          "overall": 53,
+          "team": {
+            "id": "583eccfa-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Celtics",
+            "market": "Boston",
+            "alias": "BOS"
+          },
+          "prospect": {
+            "id": "06c0a9a9-949c-4503-adca-d56a91faf6bc",
+            "source_id": "daab92e8-fe75-40f5-a76a-aa39e239f867",
+            "league_id": "6e468041-8174-4161-8c1d-8ac620e0cbb0",
+            "first_name": "JD",
+            "last_name": "Davison",
+            "name": "JD Davison",
+            "position": "G",
+            "height": 75,
+            "weight": 195,
+            "experience": "FR",
+            "birth_place": "Latohatchee, AL, USA"
+          }
+        },
+        {
+          "id": "802bab85-3348-4e49-b7b4-1aa0caf03a72",
+          "number": 24,
+          "overall": 54,
+          "traded": true,
+          "team": {
+            "id": "583ec8d4-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Wizards",
+            "market": "Washington",
+            "alias": "WAS"
+          },
+          "prospect": {
+            "id": "7a59ac48-8f21-4d59-a4ab-fe49d3e8ddff",
+            "first_name": "Yannick",
+            "last_name": "Nzosa",
+            "name": "Yannick Nzosa",
+            "position": "C",
+            "team_name": "Unicaja",
+            "height": 82,
+            "weight": 195,
+            "birth_place": "Kinshasa,, COD",
+            "top_prospect": false
+          },
+          "trades": [
+            {
+              "id": "8dbc4153-cef9-43aa-b81e-3611fa448eba"
+            }
+          ]
+        },
+        {
+          "id": "d8de78a7-15af-4b92-9514-bcbab660daf4",
+          "number": 25,
+          "overall": 55,
+          "traded": true,
+          "team": {
+            "id": "583ec825-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Warriors",
+            "market": "Golden State",
+            "alias": "GSW"
+          },
+          "prospect": {
+            "id": "889f590b-ff8a-40c6-839d-848a7ebf4edc",
+            "first_name": "Gui",
+            "last_name": "Santos",
+            "name": "Gui Santos",
+            "position": "F",
+            "team_name": "Minas",
+            "height": 80,
+            "weight": 209,
+            "birth_place": "Brasilia,, BRA",
+            "top_prospect": false
+          },
+          "trades": [
+            {
+              "id": "e500ad02-3cf5-46ec-9a17-98a315e4f906"
+            }
+          ]
+        },
+        {
+          "id": "238bc7a1-6eb3-4655-b03b-6c0b8b3d65d3",
+          "number": 26,
+          "overall": 56,
+          "traded": true,
+          "team": {
+            "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Cavaliers",
+            "market": "Cleveland",
+            "alias": "CLE"
+          },
+          "prospect": {
+            "id": "957688f6-a7b2-4490-84a0-f0d6a9efd75a",
+            "first_name": "Luke",
+            "last_name": "Travers",
+            "name": "Luke Travers",
+            "position": "G",
+            "team_name": "Perth",
+            "height": 79,
+            "weight": 207,
+            "birth_place": "Perth,, AUS",
+            "top_prospect": false
+          },
+          "trades": [
+            {
+              "id": "83a8e6cc-7501-4090-979c-5afde31b3c27"
+            },
+            {
+              "id": "f8cff3e7-f960-4f85-9633-5aad04efae71"
+            }
+          ]
+        },
+        {
+          "id": "f57c41a6-63c2-498b-84ac-e8f97bbb8f88",
+          "number": 27,
+          "overall": 57,
+          "traded": true,
+          "team": {
+            "id": "583ed056-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Trail Blazers",
+            "market": "Portland",
+            "alias": "POR"
+          },
+          "prospect": {
+            "id": "fe30240d-aa21-40e2-8ce6-5335e3bf9ffe",
+            "source_id": "1c29f0bd-9471-4300-a155-1d03157667dc",
+            "league_id": "ff065b75-4031-474c-9610-c505db2ca63e",
+            "first_name": "Jabari",
+            "last_name": "Walker",
+            "name": "Jabari Walker",
+            "position": "F",
+            "height": 80,
+            "weight": 200,
+            "experience": "SO",
+            "birth_place": "Inglewood, CA, USA"
+          },
+          "trades": [
+            {
+              "id": "955d622e-68b4-43a4-8cc0-8bf82b6c6df0"
+            },
+            {
+              "id": "0dd24eb3-07eb-444a-9534-5082ad1eef37"
+            }
+          ]
+        },
+        {
+          "id": "68c591ba-5ac2-445d-9183-567081c5937a",
+          "number": 28,
+          "overall": 58,
+          "traded": true,
+          "team": {
+            "id": "583ecefd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Bucks",
+            "market": "Milwaukee",
+            "alias": "MIL"
+          },
+          "prospect": {
+            "id": "6cf1f200-207d-40cf-a743-17a3ecf9cda9",
+            "first_name": "Hugo",
+            "last_name": "Besson",
+            "name": "Hugo Besson",
+            "position": "G",
+            "team_name": "Breakers",
+            "height": 75,
+            "weight": 196,
+            "birth_place": "Angers,, FRA",
+            "top_prospect": false
+          },
+          "trades": [
+            {
+              "id": "57f34f9e-5c19-4b34-9c2c-e3a9e3245beb"
+            },
+            {
+              "id": "44b54b26-01ca-4c07-b56e-aa7e773abd62"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "_comment": "Generation started @ 2022-07-13 14:27:06 +0000 ended @ 2022-07-13 14:27:06 +0000"
+}

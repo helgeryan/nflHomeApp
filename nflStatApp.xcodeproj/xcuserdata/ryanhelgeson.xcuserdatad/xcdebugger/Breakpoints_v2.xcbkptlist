@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "7BBF3DAE-82AC-43ED-9C74-E184B40BD2E4"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9C849A79-AF9A-4B81-9510-8E8F197832A5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "nflStatApp/Services/NBANetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "makeRequest(router:useMockData:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1C0D6EBC-15D2-41BD-A0A5-F27948D810D5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "nflStatApp/Services/NBANetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "makeRequest(router:useMockData:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "64771719-140B-4376-B974-7C5950D21B47"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "nflStatApp/Core/Heirarchy/TeamView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "fetchTeam()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "64771719-140B-4376-B974-7C5950D21B47 - 55e9f1e60bd3dc93"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;nflStatApp.Team&gt;) -&gt; () in nflStatApp.TeamViewModel.fetchTeam() -&gt; ()"
+                  moduleName = "nflStatApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ryanhelgeson/Documents/nflstatapp/nflStatApp/nflStatApp/Core/Heirarchy/TeamView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "234">
+               </Location>
+               <Location
+                  uuid = "64771719-140B-4376-B974-7C5950D21B47 - 55e9f1e60bd3dc93"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;nflStatApp.Team&gt;) -&gt; () in nflStatApp.TeamViewModel.fetchTeam() -&gt; ()"
+                  moduleName = "nflStatApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ryanhelgeson/Documents/nflstatapp/nflStatApp/nflStatApp/Core/Heirarchy/TeamView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "549">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
