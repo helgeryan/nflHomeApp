@@ -46,7 +46,7 @@ struct HomeView: View {
             case 1:
                 DraftView(presentSideMenu: $presentSideMenu)
             default:
-                FreeAgentListView(presentSideMenu: $presentSideMenu)
+                SeasonScheduleView(presentSideMenu: $presentSideMenu)
             }
             
             
@@ -72,7 +72,7 @@ struct DraftView: View {
                     VStack {
                         HeaderView(presentSideMenu: $presentSideMenu)
                         
-                        Text(verbatim: "nfl Draft \(draft.draft.year)")
+                        Text(verbatim: "NFL Draft \(draft.draft.year)")
                             .font(.title)
                             .bold()
                             .foregroundColor(.black)

@@ -10,8 +10,9 @@ import SwiftUI
 
 class LeagueLeadersViewModel: ObservableObject {
     @Published var leagueLeaders: LeagueLeadersResponse?
+    var year: Int = 2023
     init() {
-        NFLService().getLeagueLeaders(completion: { leagueLeaders in
+        NFLService().getLeagueLeaders(year: year, completion: { leagueLeaders in
             self.leagueLeaders = leagueLeaders
         })
     }

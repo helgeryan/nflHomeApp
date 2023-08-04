@@ -9,8 +9,9 @@ import SwiftUI
 
 class DraftViewModel: ObservableObject {
     @Published var draft: DraftResponse?
+    var year: Int = 2023
     init() {
-        NFLService().getDraft(completion: { draft in
+        NFLService().getDraft(year: year, completion: { draft in
             self.draft = draft
         })
     }

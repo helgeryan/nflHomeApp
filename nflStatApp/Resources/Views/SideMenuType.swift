@@ -17,7 +17,7 @@ enum SideMenuRowType: Int, CaseIterable {
         case .draft:
             return "Draft Recap"
         case .freeAgents:
-            return "Free Agents"
+            return "Schedule"
         }
     }
     
@@ -26,9 +26,9 @@ enum SideMenuRowType: Int, CaseIterable {
         case .home:
             return "house"
         case .draft:
-            return "sportscourt"
+            return "figure.american.football"
         case .freeAgents:
-            return "figure.basketball"
+            return "clipboard"
         }
     }
 }

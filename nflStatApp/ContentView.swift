@@ -24,7 +24,7 @@ struct ContentView: View {
                 }
             HeirarchyView()
                 .tabItem{
-                    Label("Teams", systemImage: "basketball.fill")
+                    Label("Teams", systemImage: "football.fill")
                 }
             
             LeagueLeadersView()

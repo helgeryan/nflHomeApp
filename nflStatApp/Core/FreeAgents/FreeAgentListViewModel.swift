@@ -7,11 +7,14 @@
 
 import SwiftUI
 
-class FreeAgentListViewModel: ObservableObject {
-    @Published var freeAgents: FreeAgentResponse?
+class SeasonScheduleViewModel: ObservableObject {
+    @Published var schedule: ScheduleResponse?
+    var year: Int = 2023
     init() {
-        NFLService().getFreeAgents(completion: { freeAgents in
-            self.freeAgents = freeAgents
+        NFLService().getSeasonSchedule(year: year, completion: { schedule in
+            self.schedule = schedule
         })
     }
 }
+
+

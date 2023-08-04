@@ -26,7 +26,7 @@
 		E6C44A542A7D4F1200CCF161 /* FreeAgentListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C44A2B2A7D4F1100CCF161 /* FreeAgentListViewModel.swift */; };
 		E6C44A552A7D4F1200CCF161 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6C44A2D2A7D4F1200CCF161 /* Preview Assets.xcassets */; };
 		E6C44A562A7D4F1200CCF161 /* DraftResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C44A302A7D4F1200CCF161 /* DraftResponse.swift */; };
-		E6C44A572A7D4F1200CCF161 /* FreeAgentResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C44A312A7D4F1200CCF161 /* FreeAgentResponse.swift */; };
+		E6C44A572A7D4F1200CCF161 /* ScheduleResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C44A312A7D4F1200CCF161 /* ScheduleResponse.swift */; };
 		E6C44A582A7D4F1200CCF161 /* LeagueLeaderResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C44A322A7D4F1200CCF161 /* LeagueLeaderResponse.swift */; };
 		E6C44A592A7D4F1200CCF161 /* HeirarchyResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C44A332A7D4F1200CCF161 /* HeirarchyResponse.swift */; };
 		E6C44A5A2A7D4F1200CCF161 /* Color+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C44A352A7D4F1200CCF161 /* Color+extensions.swift */; };
@@ -41,7 +41,7 @@
 		E6C44A632A7D4F1200CCF161 /* MockHeirarchy.json in Resources */ = {isa = PBXBuildFile; fileRef = E6C44A412A7D4F1200CCF161 /* MockHeirarchy.json */; };
 		E6C44A642A7D4F1200CCF161 /* MockDraftResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = E6C44A422A7D4F1200CCF161 /* MockDraftResponse.json */; };
 		E6C44A652A7D4F1200CCF161 /* MockStats.json in Resources */ = {isa = PBXBuildFile; fileRef = E6C44A432A7D4F1200CCF161 /* MockStats.json */; };
-		E6C44A662A7D4F1200CCF161 /* MockFreeAgents.json in Resources */ = {isa = PBXBuildFile; fileRef = E6C44A442A7D4F1200CCF161 /* MockFreeAgents.json */; };
+		E6C44A662A7D4F1200CCF161 /* MockSchedule.json in Resources */ = {isa = PBXBuildFile; fileRef = E6C44A442A7D4F1200CCF161 /* MockSchedule.json */; };
 		E6C44A672A7D4F1200CCF161 /* MockTeamRoster.json in Resources */ = {isa = PBXBuildFile; fileRef = E6C44A452A7D4F1200CCF161 /* MockTeamRoster.json */; };
 		E6C44A692A7D4F3700CCF161 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C44A682A7D4F3700CCF161 /* ContentView.swift */; };
 /* End PBXBuildFile section */
@@ -66,7 +66,7 @@
 		E6C44A2B2A7D4F1100CCF161 /* FreeAgentListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FreeAgentListViewModel.swift; sourceTree = "<group>"; };
 		E6C44A2D2A7D4F1200CCF161 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E6C44A302A7D4F1200CCF161 /* DraftResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraftResponse.swift; sourceTree = "<group>"; };
-		E6C44A312A7D4F1200CCF161 /* FreeAgentResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FreeAgentResponse.swift; sourceTree = "<group>"; };
+		E6C44A312A7D4F1200CCF161 /* ScheduleResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleResponse.swift; sourceTree = "<group>"; };
 		E6C44A322A7D4F1200CCF161 /* LeagueLeaderResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeagueLeaderResponse.swift; sourceTree = "<group>"; };
 		E6C44A332A7D4F1200CCF161 /* HeirarchyResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeirarchyResponse.swift; sourceTree = "<group>"; };
 		E6C44A352A7D4F1200CCF161 /* Color+extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+extensions.swift"; sourceTree = "<group>"; };
@@ -81,7 +81,7 @@
 		E6C44A412A7D4F1200CCF161 /* MockHeirarchy.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MockHeirarchy.json; sourceTree = "<group>"; };
 		E6C44A422A7D4F1200CCF161 /* MockDraftResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MockDraftResponse.json; sourceTree = "<group>"; };
 		E6C44A432A7D4F1200CCF161 /* MockStats.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MockStats.json; sourceTree = "<group>"; };
-		E6C44A442A7D4F1200CCF161 /* MockFreeAgents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MockFreeAgents.json; sourceTree = "<group>"; };
+		E6C44A442A7D4F1200CCF161 /* MockSchedule.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MockSchedule.json; sourceTree = "<group>"; };
 		E6C44A452A7D4F1200CCF161 /* MockTeamRoster.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MockTeamRoster.json; sourceTree = "<group>"; };
 		E6C44A682A7D4F3700CCF161 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -212,7 +212,7 @@
 			isa = PBXGroup;
 			children = (
 				E6C44A302A7D4F1200CCF161 /* DraftResponse.swift */,
-				E6C44A312A7D4F1200CCF161 /* FreeAgentResponse.swift */,
+				E6C44A312A7D4F1200CCF161 /* ScheduleResponse.swift */,
 				E6C44A322A7D4F1200CCF161 /* LeagueLeaderResponse.swift */,
 				E6C44A332A7D4F1200CCF161 /* HeirarchyResponse.swift */,
 			);
@@ -256,7 +256,7 @@
 				E6C44A412A7D4F1200CCF161 /* MockHeirarchy.json */,
 				E6C44A422A7D4F1200CCF161 /* MockDraftResponse.json */,
 				E6C44A432A7D4F1200CCF161 /* MockStats.json */,
-				E6C44A442A7D4F1200CCF161 /* MockFreeAgents.json */,
+				E6C44A442A7D4F1200CCF161 /* MockSchedule.json */,
 				E6C44A452A7D4F1200CCF161 /* MockTeamRoster.json */,
 			);
 			path = MockRepsonses;
@@ -328,7 +328,7 @@
 			files = (
 				E6C44A122A7D4CF500CCF161 /* Preview Assets.xcassets in Resources */,
 				E6C44A552A7D4F1200CCF161 /* Preview Assets.xcassets in Resources */,
-				E6C44A662A7D4F1200CCF161 /* MockFreeAgents.json in Resources */,
+				E6C44A662A7D4F1200CCF161 /* MockSchedule.json in Resources */,
 				E6C44A672A7D4F1200CCF161 /* MockTeamRoster.json in Resources */,
 				E6C44A642A7D4F1200CCF161 /* MockDraftResponse.json in Resources */,
 				E6C44A652A7D4F1200CCF161 /* MockStats.json in Resources */,
@@ -368,7 +368,7 @@
 				E6C44A542A7D4F1200CCF161 /* FreeAgentListViewModel.swift in Sources */,
 				E6C44A522A7D4F1200CCF161 /* FreeAgentListView.swift in Sources */,
 				E6C44A602A7D4F1200CCF161 /* NFLNetworkManager.swift in Sources */,
-				E6C44A572A7D4F1200CCF161 /* FreeAgentResponse.swift in Sources */,
+				E6C44A572A7D4F1200CCF161 /* ScheduleResponse.swift in Sources */,
 				E6C44A692A7D4F3700CCF161 /* ContentView.swift in Sources */,
 				E6C44A5B2A7D4F1200CCF161 /* HeaderView.swift in Sources */,
 				E6C44A4C2A7D4F1200CCF161 /* TeamView.swift in Sources */,

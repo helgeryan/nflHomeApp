@@ -11,14 +11,14 @@ import Alamofire
 
 class NFLService {
     let manager = NFLNetworkManager()
-    func getDraft(completion: @escaping (DraftResponse?) -> ()) {
-        let router = NFLApiAction.draft(year: 2022)
+    func getDraft(year: Int, completion: @escaping (DraftResponse?) -> ()) {
+        let router = NFLApiAction.draft(year: year)
         manager.makeRequest(router: router, useMockData: true, completion: completion)
     }
     
-    func getFreeAgents(completion: @escaping (FreeAgentResponse?) -> ()) {
-        let router = NFLApiAction.freeAgents
-        manager.makeRequest(router: router, useMockData: false, completion: completion)
+    func getSeasonSchedule(year: Int, completion: @escaping (ScheduleResponse?) -> ()) {
+        let router = NFLApiAction.schedule(year: year)
+        manager.makeRequest(router: router, useMockData: true, completion: completion)
     }
     
     func getHeirarchy(completion: @escaping (HeirarchyResponse?) -> ()) {
@@ -26,8 +26,8 @@ class NFLService {
         manager.makeRequest(router: router, useMockData: true, completion: completion)
     }
     
-    func getLeagueLeaders(completion: @escaping (LeagueLeadersResponse?) -> ()) {
-        let router = NFLApiAction.leagueLeaders(year: 2021)
+    func getLeagueLeaders(year: Int, completion: @escaping (LeagueLeadersResponse?) -> ()) {
+        let router = NFLApiAction.leagueLeaders(year: year)
         manager.makeRequest(router: router, useMockData: true, completion: completion)
     }
     

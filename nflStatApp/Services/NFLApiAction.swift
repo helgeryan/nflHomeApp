@@ -11,7 +11,7 @@ import Alamofire
 enum NFLApiAction {
     case draft(year: Int)
     case leagueLeaders(year: Int)
-    case freeAgents
+    case schedule(year: Int)
     case heirarchy
     case teamRoster(teamId: String)
 }
@@ -23,8 +23,8 @@ extension NFLApiAction: NFLRouter {
             return "MockDraftResponse"
         case .leagueLeaders:
             return "MockStats"
-        case .freeAgents:
-            return "MockFreeAgents"
+        case .schedule:
+            return "MockSchedule"
         case .heirarchy:
             return "MockHeirarchy"
         case .teamRoster:
@@ -38,7 +38,7 @@ extension NFLApiAction: NFLRouter {
             return .get
         case .leagueLeaders:
             return .get
-        case .freeAgents:
+        case .schedule:
             return .get
         case .heirarchy:
             return .get
@@ -53,8 +53,8 @@ extension NFLApiAction: NFLRouter {
             return "draft/nfl/trial/v1/en/\(year)/draft.json?api_key=eegavg9txm5q62k8r3zrkpxm"
         case .leagueLeaders(let year):
             return "trial/v8/en/seasons/\(year)/REG/leaders.json?api_key=eegavg9txm5q62k8r3zrkpxm"
-        case .freeAgents:
-            return "trial/v8/en/league/free_agents.json?api_key=eegavg9txm5q62k8r3zrkpxm"
+        case .schedule(let year):
+            return "trial/v7/en/games/\(year)/REG/schedule.json?api_key=eegavg9txm5q62k8r3zrkpxm"
         case .heirarchy:
             return "trial/v7/en/league/hierarchy.json?api_key=eegavg9txm5q62k8r3zrkpxm"
         case.teamRoster(let teamId):
@@ -67,7 +67,7 @@ extension NFLApiAction: NFLRouter {
         case .draft:
             return "https://api.sportradar.us/"
         case .leagueLeaders,
-                .freeAgents,
+                .schedule,
                 .heirarchy,
                 .teamRoster:
             return "https://api.sportradar.us/nfl/official/"

@@ -25,7 +25,7 @@ struct League: Codable {
 }
 
 struct BroadCast: Codable {
-    let channel: String
+    let channel: String?
     let network: String
 }
 
@@ -33,7 +33,7 @@ struct Venue: Codable {
     let name: String
     let address: String
     let city: String
-    let state: String
+    let state: String?
     let country: String
     let sr_id: String?
     let location: Location?
@@ -91,6 +91,41 @@ struct Team: Codable {
             return []
         }
     }
+    
+    static let teamNames: [String] = [
+        "Packers",
+        "Lions",
+        "Vikings",
+        "Bears",
+        "49ers",
+        "Chiefs",
+        "Chargers",
+        "Rams",
+        "Commanders",
+        "Seahawks",
+        "Cardinals",
+        "Eagles",
+        "Giants",
+        "Cowboys",
+        "Saints",
+        "Buccaneers",
+        "Panthers",
+        "Falcons",
+        "Raiders",
+        "Broncos",
+        "Steelers",
+        "Ravens",
+        "Bengals",
+        "Browns",
+        "Titans",
+        "Texans",
+        "Colts",
+        "Jaguars",
+        "Bills",
+        "Jets",
+        "Dolphins",
+        "Patriots"
+    ]
 }
 
 struct Player: Codable {

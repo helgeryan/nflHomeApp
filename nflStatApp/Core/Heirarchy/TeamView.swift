@@ -55,7 +55,7 @@ struct TeamView: View {
                     .bold()
                     .padding(4)
                 if let venue = model.team.venue {
-                    Text("\(venue.name) \(venue.city), \(venue.state)")
+                    Text(venue.name + " " + venue.city)
                         .foregroundColor(model.foregroundColor)
                         .font(.system(size: 16))
                         .fontWeight(.semibold)
@@ -81,45 +81,8 @@ struct TeamView: View {
                         .multilineTextAlignment(.center)
                 }
                 
-                List {
-                    let qbs = Player.filterForPositionGroup(players: model.team.players ?? [], filterParams: ["QB"])
-                    PositionGroupView(players: qbs, title: "Quarterbacks", foregroundColor: model.foregroundColor)
-                    
-                    let wrs = Player.filterForPositionGroup(players: model.team.players ?? [], filterParams: ["WR"])
-                    PositionGroupView(players: wrs, title: "Wide Receivers", foregroundColor: model.foregroundColor)
-                    
-                    let rbs = Player.filterForPositionGroup(players: model.team.players ?? [], filterParams: ["RB", "FB"])
-                    PositionGroupView(players: rbs, title: "Running Backs", foregroundColor: model.foregroundColor)
-                    
-                    let dl = Player.filterForPositionGroup(players: model.team.players ?? [], filterParams: ["DL", "DE", "DT", "NT"])
-                    PositionGroupView(players: dl, title: "Defensive Line", foregroundColor: model.foregroundColor)
-                    
-                    let lb = Player.filterForPositionGroup(players: model.team.players ?? [], filterParams: ["OLB", "LB", "ILB"])
-                    PositionGroupView(players: lb, title: "Line Backers", foregroundColor: model.foregroundColor)
-                    
-                    let dbs = Player.filterForPositionGroup(players: model.team.players ?? [], filterParams: ["CB", "SAF"])
-                    PositionGroupView(players: dbs, title: "Defensive Backs", foregroundColor: model.foregroundColor)
-                    
-                    
-                    let special = Player.filterForPositionGroup(players: model.team.players ?? [], filterParams: ["K", "P", "LS"])
-                    PositionGroupView(players: special, title: "Special Teams", foregroundColor: model.foregroundColor)
-                    
-                    Section(content: {
-                        ForEach(model.team.coaches ?? [], id: \.id) { coach in
-                            Text(coach.full_name)
-                        }
-                    }, header: {
-                        HStack {
-                            Text("Coaches")
-                                .foregroundColor(model.foregroundColor)
-                                .font(.system(size: 16))
-                                .fontWeight(.semibold)
-                                .multilineTextAlignment(.center)
-                            Spacer()
-                        }
-                    })
-                }
-                .scrollContentBackground(.hidden)
+                RosterView(model: model)
+                
                 Spacer()
             }
             Spacer()
@@ -131,6 +94,51 @@ struct TeamView: View {
     }
 }
 
+struct RosterView: View {
+    let model: TeamViewModel
+    var body: some View {
+        List {
+            let qbs = Player.filterForPositionGroup(players: model.team.players ?? [], filterParams: ["QB"])
+            PositionGroupView(players: qbs, title: "Quarterbacks", foregroundColor: model.foregroundColor)
+            
+            let wrs = Player.filterForPositionGroup(players: model.team.players ?? [], filterParams: ["WR"])
+            PositionGroupView(players: wrs, title: "Wide Receivers", foregroundColor: model.foregroundColor)
+            
+            let rbs = Player.filterForPositionGroup(players: model.team.players ?? [], filterParams: ["RB", "FB"])
+            PositionGroupView(players: rbs, title: "Running Backs", foregroundColor: model.foregroundColor)
+            
+            let dl = Player.filterForPositionGroup(players: model.team.players ?? [], filterParams: ["DL", "DE", "DT", "NT"])
+            PositionGroupView(players: dl, title: "Defensive Line", foregroundColor: model.foregroundColor)
+            
+            let lb = Player.filterForPositionGroup(players: model.team.players ?? [], filterParams: ["OLB", "LB", "ILB"])
+            PositionGroupView(players: lb, title: "Line Backers", foregroundColor: model.foregroundColor)
+            
+            let dbs = Player.filterForPositionGroup(players: model.team.players ?? [], filterParams: ["CB", "SAF"])
+            PositionGroupView(players: dbs, title: "Defensive Backs", foregroundColor: model.foregroundColor)
+            
+            
+            let special = Player.filterForPositionGroup(players: model.team.players ?? [], filterParams: ["K", "P", "LS"])
+            PositionGroupView(players: special, title: "Special Teams", foregroundColor: model.foregroundColor)
+            
+            Section(content: {
+                ForEach(model.team.coaches ?? [], id: \.id) { coach in
+                    Text(coach.full_name)
+                }
+            }, header: {
+                HStack {
+                    Text("Coaches")
+                        .foregroundColor(model.foregroundColor)
+                        .font(.system(size: 16))
+                        .fontWeight(.semibold)
+                        .multilineTextAlignment(.center)
+                    Spacer()
+                }
+            })
+        }
+        .scrollContentBackground(.hidden)
+
+    }
+}
 
 struct PositionGroupView: View {
     let players: [Player]
