@@ -21,7 +21,7 @@
 		E6C44A4F2A7D4F1200CCF161 /* LeagueLeadersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C44A252A7D4F1100CCF161 /* LeagueLeadersView.swift */; };
 		E6C44A502A7D4F1200CCF161 /* LeagueLeaderRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C44A262A7D4F1100CCF161 /* LeagueLeaderRowView.swift */; };
 		E6C44A512A7D4F1200CCF161 /* FreeAgentRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C44A282A7D4F1100CCF161 /* FreeAgentRowView.swift */; };
-		E6C44A522A7D4F1200CCF161 /* FreeAgentListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C44A292A7D4F1100CCF161 /* FreeAgentListView.swift */; };
+		E6C44A522A7D4F1200CCF161 /* SeasonScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C44A292A7D4F1100CCF161 /* SeasonScheduleView.swift */; };
 		E6C44A532A7D4F1200CCF161 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C44A2A2A7D4F1100CCF161 /* PlayerView.swift */; };
 		E6C44A542A7D4F1200CCF161 /* FreeAgentListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C44A2B2A7D4F1100CCF161 /* FreeAgentListViewModel.swift */; };
 		E6C44A552A7D4F1200CCF161 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6C44A2D2A7D4F1200CCF161 /* Preview Assets.xcassets */; };
@@ -61,7 +61,7 @@
 		E6C44A252A7D4F1100CCF161 /* LeagueLeadersView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeagueLeadersView.swift; sourceTree = "<group>"; };
 		E6C44A262A7D4F1100CCF161 /* LeagueLeaderRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeagueLeaderRowView.swift; sourceTree = "<group>"; };
 		E6C44A282A7D4F1100CCF161 /* FreeAgentRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FreeAgentRowView.swift; sourceTree = "<group>"; };
-		E6C44A292A7D4F1100CCF161 /* FreeAgentListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FreeAgentListView.swift; sourceTree = "<group>"; };
+		E6C44A292A7D4F1100CCF161 /* SeasonScheduleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeasonScheduleView.swift; sourceTree = "<group>"; };
 		E6C44A2A2A7D4F1100CCF161 /* PlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 		E6C44A2B2A7D4F1100CCF161 /* FreeAgentListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FreeAgentListViewModel.swift; sourceTree = "<group>"; };
 		E6C44A2D2A7D4F1200CCF161 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -143,7 +143,7 @@
 				E6C44A1B2A7D4F1100CCF161 /* Draft */,
 				E6C44A1F2A7D4F1100CCF161 /* Heirarchy */,
 				E6C44A232A7D4F1100CCF161 /* LeagueLeaders */,
-				E6C44A272A7D4F1100CCF161 /* FreeAgents */,
+				E6C44A272A7D4F1100CCF161 /* Schedule */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -178,15 +178,15 @@
 			path = LeagueLeaders;
 			sourceTree = "<group>";
 		};
-		E6C44A272A7D4F1100CCF161 /* FreeAgents */ = {
+		E6C44A272A7D4F1100CCF161 /* Schedule */ = {
 			isa = PBXGroup;
 			children = (
 				E6C44A282A7D4F1100CCF161 /* FreeAgentRowView.swift */,
-				E6C44A292A7D4F1100CCF161 /* FreeAgentListView.swift */,
+				E6C44A292A7D4F1100CCF161 /* SeasonScheduleView.swift */,
 				E6C44A2A2A7D4F1100CCF161 /* PlayerView.swift */,
 				E6C44A2B2A7D4F1100CCF161 /* FreeAgentListViewModel.swift */,
 			);
-			path = FreeAgents;
+			path = Schedule;
 			sourceTree = "<group>";
 		};
 		E6C44A2C2A7D4F1200CCF161 /* Preview Content */ = {
@@ -366,7 +366,7 @@
 				E6C44A0B2A7D4CF100CCF161 /* nflStatAppApp.swift in Sources */,
 				E6C44A5C2A7D4F1200CCF161 /* SideMenuView.swift in Sources */,
 				E6C44A542A7D4F1200CCF161 /* FreeAgentListViewModel.swift in Sources */,
-				E6C44A522A7D4F1200CCF161 /* FreeAgentListView.swift in Sources */,
+				E6C44A522A7D4F1200CCF161 /* SeasonScheduleView.swift in Sources */,
 				E6C44A602A7D4F1200CCF161 /* NFLNetworkManager.swift in Sources */,
 				E6C44A572A7D4F1200CCF161 /* ScheduleResponse.swift in Sources */,
 				E6C44A692A7D4F3700CCF161 /* ContentView.swift in Sources */,

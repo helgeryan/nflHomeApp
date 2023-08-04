@@ -11,6 +11,11 @@ import SwiftUI
 struct SeasonScheduleView: View {
     @Binding var presentSideMenu: Bool
     @StateObject var model: SeasonScheduleViewModel = SeasonScheduleViewModel()
+    
+    @State private var selection = 2023
+    let years = Array(2015...2023)
+
+    
     var body: some View {
         NavigationStack {
             ZStack {
@@ -24,6 +29,18 @@ struct SeasonScheduleView: View {
                             .font(.title)
                             .bold()
                             .foregroundColor(.black)
+                        
+                        Picker("Select a season", selection: $selection) {
+                            ForEach(years, id: \.self) { year in
+                                Text(verbatim: "\(year) Season")
+                                    .foregroundColor(.black)
+                            }
+                        }
+                        .pickerStyle(.menu)
+                        .tint(.blue)
+                        .onChange(of: selection, perform: { _ in
+                            model.year = selection
+                        })
                         
                         List {
                             ForEach(schedule.weeks, id: \.id, content: { week in
@@ -58,7 +75,7 @@ struct GameRowView: View {
                 TeamBasicView(team: game.away)
                     .frame(width: 100)
                 Spacer()
-                VStack {
+                VStack(spacing: 6) {
                     Text("@")
                         .foregroundColor(.black)
                         .fontWeight(.bold)
@@ -74,7 +91,7 @@ struct GameRowView: View {
                             Image(broadcast.network.replacingOccurrences(of: "/", with: ""))
                                 .resizable()
                                 .scaledToFit()
-                                .frame(width: 40, height: 40)
+                                .frame(width: 40, height: 30)
                     }
                 }
                 Spacer()
@@ -95,12 +112,14 @@ struct TeamBasicView: View {
     let team: TrimmedTeam
     var body: some View {
         VStack(spacing: 5) {
-            let teamName = Team.teamNames.first(where: { team.name.contains($0) })
-            Image(teamName!)
-                .resizable()
-                .scaledToFit()
-                .frame(width: 60, height: 60)
-                .clipped()
+            if let teamName = Team.teamNames.first(where: { team.name.contains($0) }) {
+                Image(teamName)
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 60, height: 60)
+                    .clipped()
+            }
+                
             Text(team.name)
                 .multilineTextAlignment(.center)
                 .font(.system(size: 12))

@@ -116,5 +116,69 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A2DAF7EF-1534-46C4-BD2A-E9ECB254C9CE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "nflStatApp/Core/FreeAgents/FreeAgentListView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "73699570-6965-4016-9E88-24546FF26DDE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "nflStatApp/Core/FreeAgents/FreeAgentListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "fetchSeasonSchedule()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "73699570-6965-4016-9E88-24546FF26DDE - 70a6a60e7f77c7b2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "nflStatApp.SeasonScheduleViewModel.fetchSeasonSchedule() -&gt; ()"
+                  moduleName = "nflStatApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ryanhelgeson/Documents/nflstatapp/nflStatApp/nflStatApp/Core/FreeAgents/FreeAgentListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "30">
+               </Location>
+               <Location
+                  uuid = "73699570-6965-4016-9E88-24546FF26DDE - 38afef291c94a917"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;nflStatApp.ScheduleResponse&gt;) -&gt; () in nflStatApp.SeasonScheduleViewModel.fetchSeasonSchedule() -&gt; ()"
+                  moduleName = "nflStatApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ryanhelgeson/Documents/nflstatapp/nflStatApp/nflStatApp/Core/FreeAgents/FreeAgentListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "41">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

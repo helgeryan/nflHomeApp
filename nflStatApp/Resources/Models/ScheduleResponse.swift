@@ -28,8 +28,8 @@ struct Game: Codable {
     let scheduled: String
     let entry_mode: String
     let sr_id: String
-    let game_type: String
-    let conference_game: Bool
+    let game_type: String?
+    let conference_game: Bool?
     let venue: Venue
     let home: TrimmedTeam
     let away: TrimmedTeam
@@ -64,7 +64,7 @@ struct TrimmedTeam: Codable {
     let id: String
     let name: String
     let alias: String
-    let game_number: Int
+    let game_number: Int?
     let sr_id: String
     
     
