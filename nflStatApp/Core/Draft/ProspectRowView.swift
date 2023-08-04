@@ -12,7 +12,7 @@ struct ProspectRowView: View {
     let pick: Pick
     var body: some View {
         NavigationLink(destination: {
-            FreeAgentView(freeAgent: pick.prospect)
+            PlayerView(freeAgent: pick.prospect)
         }, label: {
             VStack(alignment: .leading) {
                 Text("R\(round.number):P\(pick.number) - \(pick.team.market) \(pick.team.name)")

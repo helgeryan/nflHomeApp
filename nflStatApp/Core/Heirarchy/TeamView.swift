@@ -140,7 +140,7 @@ struct PositionGroupView: View {
         Section(content: {
             ForEach(players, id: \.id) { player in
                 NavigationLink(destination: {
-                    FreeAgentView(freeAgent: player)
+                    PlayerView(freeAgent: player)
                 }, label: {
                     HStack {
                         Text("#" + (player.jersey ?? "00"))

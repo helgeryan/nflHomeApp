@@ -7,11 +7,11 @@
 
 import SwiftUI
 
-struct FreeAgentView: View {
+struct PlayerView: View {
     var freeAgent: Player
     var body: some View {
         VStack {
-            Image("nbaLogo")
+            Image("nflLogo")
                 .frame(width: 176, height: 176)
                 .cornerRadius(88)
                 .clipped()

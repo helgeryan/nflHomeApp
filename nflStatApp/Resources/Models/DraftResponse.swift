@@ -109,7 +109,6 @@ struct Player: Codable {
     let height: Int?
     let weight: Int?
     let college: String?
-    let experience: Int?
     let birth_place: String?
     let birthdate: String?
     let jersey: String?

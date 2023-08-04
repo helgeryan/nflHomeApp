@@ -65,7 +65,7 @@ extension NFLApiAction: NFLRouter {
     var baseUrl: String {
         switch self {
         case .draft:
-            return "http://api.sportradar.us/"
+            return "https://api.sportradar.us/"
         case .leagueLeaders,
                 .freeAgents,
                 .heirarchy,

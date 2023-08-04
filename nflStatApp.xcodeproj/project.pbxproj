@@ -34,10 +34,10 @@
 		E6C44A5C2A7D4F1200CCF161 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C44A382A7D4F1200CCF161 /* SideMenuView.swift */; };
 		E6C44A5D2A7D4F1200CCF161 /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C44A392A7D4F1200CCF161 /* SideMenu.swift */; };
 		E6C44A5E2A7D4F1200CCF161 /* SideMenuType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C44A3A2A7D4F1200CCF161 /* SideMenuType.swift */; };
-		E6C44A5F2A7D4F1200CCF161 /* NBARouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C44A3C2A7D4F1200CCF161 /* NBARouter.swift */; };
-		E6C44A602A7D4F1200CCF161 /* NBANetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C44A3D2A7D4F1200CCF161 /* NBANetworkManager.swift */; };
-		E6C44A612A7D4F1200CCF161 /* NBAApiAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C44A3E2A7D4F1200CCF161 /* NBAApiAction.swift */; };
-		E6C44A622A7D4F1200CCF161 /* NBAService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C44A3F2A7D4F1200CCF161 /* NBAService.swift */; };
+		E6C44A5F2A7D4F1200CCF161 /* NFLRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C44A3C2A7D4F1200CCF161 /* NFLRouter.swift */; };
+		E6C44A602A7D4F1200CCF161 /* NFLNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C44A3D2A7D4F1200CCF161 /* NFLNetworkManager.swift */; };
+		E6C44A612A7D4F1200CCF161 /* NFLApiAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C44A3E2A7D4F1200CCF161 /* NFLApiAction.swift */; };
+		E6C44A622A7D4F1200CCF161 /* NFLService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C44A3F2A7D4F1200CCF161 /* NFLService.swift */; };
 		E6C44A632A7D4F1200CCF161 /* MockHeirarchy.json in Resources */ = {isa = PBXBuildFile; fileRef = E6C44A412A7D4F1200CCF161 /* MockHeirarchy.json */; };
 		E6C44A642A7D4F1200CCF161 /* MockDraftResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = E6C44A422A7D4F1200CCF161 /* MockDraftResponse.json */; };
 		E6C44A652A7D4F1200CCF161 /* MockStats.json in Resources */ = {isa = PBXBuildFile; fileRef = E6C44A432A7D4F1200CCF161 /* MockStats.json */; };
@@ -74,10 +74,10 @@
 		E6C44A382A7D4F1200CCF161 /* SideMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
 		E6C44A392A7D4F1200CCF161 /* SideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
 		E6C44A3A2A7D4F1200CCF161 /* SideMenuType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuType.swift; sourceTree = "<group>"; };
-		E6C44A3C2A7D4F1200CCF161 /* NBARouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NBARouter.swift; sourceTree = "<group>"; };
-		E6C44A3D2A7D4F1200CCF161 /* NBANetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NBANetworkManager.swift; sourceTree = "<group>"; };
-		E6C44A3E2A7D4F1200CCF161 /* NBAApiAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NBAApiAction.swift; sourceTree = "<group>"; };
-		E6C44A3F2A7D4F1200CCF161 /* NBAService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NBAService.swift; sourceTree = "<group>"; };
+		E6C44A3C2A7D4F1200CCF161 /* NFLRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NFLRouter.swift; sourceTree = "<group>"; };
+		E6C44A3D2A7D4F1200CCF161 /* NFLNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NFLNetworkManager.swift; sourceTree = "<group>"; };
+		E6C44A3E2A7D4F1200CCF161 /* NFLApiAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NFLApiAction.swift; sourceTree = "<group>"; };
+		E6C44A3F2A7D4F1200CCF161 /* NFLService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NFLService.swift; sourceTree = "<group>"; };
 		E6C44A412A7D4F1200CCF161 /* MockHeirarchy.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MockHeirarchy.json; sourceTree = "<group>"; };
 		E6C44A422A7D4F1200CCF161 /* MockDraftResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MockDraftResponse.json; sourceTree = "<group>"; };
 		E6C44A432A7D4F1200CCF161 /* MockStats.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MockStats.json; sourceTree = "<group>"; };
@@ -241,10 +241,10 @@
 		E6C44A3B2A7D4F1200CCF161 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				E6C44A3C2A7D4F1200CCF161 /* NBARouter.swift */,
-				E6C44A3D2A7D4F1200CCF161 /* NBANetworkManager.swift */,
-				E6C44A3E2A7D4F1200CCF161 /* NBAApiAction.swift */,
-				E6C44A3F2A7D4F1200CCF161 /* NBAService.swift */,
+				E6C44A3C2A7D4F1200CCF161 /* NFLRouter.swift */,
+				E6C44A3D2A7D4F1200CCF161 /* NFLNetworkManager.swift */,
+				E6C44A3E2A7D4F1200CCF161 /* NFLApiAction.swift */,
+				E6C44A3F2A7D4F1200CCF161 /* NFLService.swift */,
 				E6C44A402A7D4F1200CCF161 /* MockRepsonses */,
 			);
 			path = Services;
@@ -354,20 +354,20 @@
 				E6C44A4F2A7D4F1200CCF161 /* LeagueLeadersView.swift in Sources */,
 				E6C44A592A7D4F1200CCF161 /* HeirarchyResponse.swift in Sources */,
 				E6C44A482A7D4F1200CCF161 /* ProspectRowView.swift in Sources */,
-				E6C44A612A7D4F1200CCF161 /* NBAApiAction.swift in Sources */,
+				E6C44A612A7D4F1200CCF161 /* NFLApiAction.swift in Sources */,
 				E6C44A512A7D4F1200CCF161 /* FreeAgentRowView.swift in Sources */,
 				E6C44A5D2A7D4F1200CCF161 /* SideMenu.swift in Sources */,
 				E6C44A5A2A7D4F1200CCF161 /* Color+extensions.swift in Sources */,
 				E6C44A492A7D4F1200CCF161 /* DraftViewModel.swift in Sources */,
 				E6C44A502A7D4F1200CCF161 /* LeagueLeaderRowView.swift in Sources */,
-				E6C44A5F2A7D4F1200CCF161 /* NBARouter.swift in Sources */,
+				E6C44A5F2A7D4F1200CCF161 /* NFLRouter.swift in Sources */,
 				E6C44A4A2A7D4F1200CCF161 /* DraftView.swift in Sources */,
-				E6C44A622A7D4F1200CCF161 /* NBAService.swift in Sources */,
+				E6C44A622A7D4F1200CCF161 /* NFLService.swift in Sources */,
 				E6C44A0B2A7D4CF100CCF161 /* nflStatAppApp.swift in Sources */,
 				E6C44A5C2A7D4F1200CCF161 /* SideMenuView.swift in Sources */,
 				E6C44A542A7D4F1200CCF161 /* FreeAgentListViewModel.swift in Sources */,
 				E6C44A522A7D4F1200CCF161 /* FreeAgentListView.swift in Sources */,
-				E6C44A602A7D4F1200CCF161 /* NBANetworkManager.swift in Sources */,
+				E6C44A602A7D4F1200CCF161 /* NFLNetworkManager.swift in Sources */,
 				E6C44A572A7D4F1200CCF161 /* FreeAgentResponse.swift in Sources */,
 				E6C44A692A7D4F3700CCF161 /* ContentView.swift in Sources */,
 				E6C44A5B2A7D4F1200CCF161 /* HeaderView.swift in Sources */,
