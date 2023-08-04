@@ -8,13 +8,18 @@
 import SwiftUI
 
 struct CoreView: View {
+    @Binding var presentSideMenu: Bool
+    let backgroundColor: Color
+    let content: AnyView
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
-
-struct CoreView_Previews: PreviewProvider {
-    static var previews: some View {
-        CoreView()
+        NavigationStack {
+            ZStack {
+                VStack {
+                    HeaderView(presentSideMenu: $presentSideMenu)
+                    
+                    content
+                }
+            }.background(backgroundColor)
+        }
     }
 }

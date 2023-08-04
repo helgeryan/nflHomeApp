@@ -8,23 +8,25 @@
 import SwiftUI
 
 struct DraftView: View {
-    @Binding var presentSideMenu: Bool
     @StateObject var model: DraftViewModel = DraftViewModel()
     var body: some View {
         NavigationStack {
             ZStack {
                 if let draft = model.draft {
                     VStack {
-                        HeaderView(presentSideMenu: $presentSideMenu)
-                        
                         Text(verbatim: "NFL Draft \(draft.draft.year)")
                             .font(.title)
                             .bold()
-                            .foregroundColor(.black)
-                        
-                        Text(verbatim: "\(draft.draft.venue.name) \(draft.draft.venue.city), \(draft.draft.venue.state)")
-                            .font(.title2)
-                            .foregroundColor(.gray)
+                            .foregroundColor(.white)
+                        if let state = draft.draft.venue.state {
+                            Text(verbatim: "\(draft.draft.venue.name) \(draft.draft.venue.city), \(state)")
+                                .font(.title2)
+                                .foregroundColor(.gray)
+                        } else {
+                            Text(verbatim: "\(draft.draft.venue.name) \(draft.draft.venue.city)")
+                                .font(.title2)
+                                .foregroundColor(.gray)
+                        }
                         
                         List {
                             ForEach(draft.rounds, id: \.id, content: { round in

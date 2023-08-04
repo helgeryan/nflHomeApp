@@ -9,7 +9,6 @@ import Foundation
 import SwiftUI
 
 struct SeasonScheduleView: View {
-    @Binding var presentSideMenu: Bool
     @StateObject var model: SeasonScheduleViewModel = SeasonScheduleViewModel()
     
     @State private var selection = 2023
@@ -24,7 +23,6 @@ struct SeasonScheduleView: View {
                     .foregroundColor(Color.white)
                 if let schedule = model.schedule {
                     VStack {
-                        HeaderView(presentSideMenu: $presentSideMenu)
                         Text(verbatim: "NFL Season Schedule")
                             .font(.title)
                             .bold()
@@ -42,7 +40,6 @@ struct SeasonScheduleView: View {
                             model.year = selection
                         })
                         ScrollView {
-                            
                             LazyVStack(pinnedViews: [.sectionHeaders]) {
                                 ForEach(schedule.weeks, id: \.id, content: { week in
                                     Section(content: {
