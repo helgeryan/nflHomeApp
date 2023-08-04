@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E672CDE42A7DBD7100A1EFB1 /* TeamBasicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E672CDE32A7DBD7100A1EFB1 /* TeamBasicView.swift */; };
+		E672CDE62A7DBD9D00A1EFB1 /* GameRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E672CDE52A7DBD9D00A1EFB1 /* GameRowView.swift */; };
+		E672CDE92A7DBE3A00A1EFB1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E672CDE82A7DBE3A00A1EFB1 /* HomeView.swift */; };
+		E672CDEB2A7DBE5000A1EFB1 /* CoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E672CDEA2A7DBE5000A1EFB1 /* CoreView.swift */; };
 		E6C2349F2A7D51ED00CDEF14 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = E6C2349E2A7D51ED00CDEF14 /* Alamofire */; };
 		E6C44A0B2A7D4CF100CCF161 /* nflStatAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C44A0A2A7D4CF100CCF161 /* nflStatAppApp.swift */; };
 		E6C44A0F2A7D4CF500CCF161 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6C44A0E2A7D4CF500CCF161 /* Assets.xcassets */; };
@@ -47,6 +51,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E672CDE32A7DBD7100A1EFB1 /* TeamBasicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamBasicView.swift; sourceTree = "<group>"; };
+		E672CDE52A7DBD9D00A1EFB1 /* GameRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameRowView.swift; sourceTree = "<group>"; };
+		E672CDE82A7DBE3A00A1EFB1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		E672CDEA2A7DBE5000A1EFB1 /* CoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreView.swift; sourceTree = "<group>"; };
 		E6C44A072A7D4CF100CCF161 /* nflStatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nflStatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6C44A0A2A7D4CF100CCF161 /* nflStatAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nflStatAppApp.swift; sourceTree = "<group>"; };
 		E6C44A0E2A7D4CF500CCF161 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -98,6 +106,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E672CDE72A7DBE3000A1EFB1 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E672CDE82A7DBE3A00A1EFB1 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		E6C449FE2A7D4CF100CCF161 = {
 			isa = PBXGroup;
 			children = (
@@ -140,10 +156,12 @@
 		E6C44A1A2A7D4F1100CCF161 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				E672CDE72A7DBE3000A1EFB1 /* Home */,
 				E6C44A1B2A7D4F1100CCF161 /* Draft */,
 				E6C44A1F2A7D4F1100CCF161 /* Heirarchy */,
 				E6C44A232A7D4F1100CCF161 /* LeagueLeaders */,
 				E6C44A272A7D4F1100CCF161 /* Schedule */,
+				E672CDEA2A7DBE5000A1EFB1 /* CoreView.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -234,6 +252,8 @@
 				E6C44A382A7D4F1200CCF161 /* SideMenuView.swift */,
 				E6C44A392A7D4F1200CCF161 /* SideMenu.swift */,
 				E6C44A3A2A7D4F1200CCF161 /* SideMenuType.swift */,
+				E672CDE32A7DBD7100A1EFB1 /* TeamBasicView.swift */,
+				E672CDE52A7DBD9D00A1EFB1 /* GameRowView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -357,11 +377,15 @@
 				E6C44A612A7D4F1200CCF161 /* NFLApiAction.swift in Sources */,
 				E6C44A512A7D4F1200CCF161 /* FreeAgentRowView.swift in Sources */,
 				E6C44A5D2A7D4F1200CCF161 /* SideMenu.swift in Sources */,
+				E672CDEB2A7DBE5000A1EFB1 /* CoreView.swift in Sources */,
 				E6C44A5A2A7D4F1200CCF161 /* Color+extensions.swift in Sources */,
 				E6C44A492A7D4F1200CCF161 /* DraftViewModel.swift in Sources */,
 				E6C44A502A7D4F1200CCF161 /* LeagueLeaderRowView.swift in Sources */,
+				E672CDE92A7DBE3A00A1EFB1 /* HomeView.swift in Sources */,
 				E6C44A5F2A7D4F1200CCF161 /* NFLRouter.swift in Sources */,
+				E672CDE62A7DBD9D00A1EFB1 /* GameRowView.swift in Sources */,
 				E6C44A4A2A7D4F1200CCF161 /* DraftView.swift in Sources */,
+				E672CDE42A7DBD7100A1EFB1 /* TeamBasicView.swift in Sources */,
 				E6C44A622A7D4F1200CCF161 /* NFLService.swift in Sources */,
 				E6C44A0B2A7D4CF100CCF161 /* nflStatAppApp.swift in Sources */,
 				E6C44A5C2A7D4F1200CCF161 /* SideMenuView.swift in Sources */,
