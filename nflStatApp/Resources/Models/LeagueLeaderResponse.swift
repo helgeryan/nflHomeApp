@@ -32,8 +32,7 @@ struct StatCategory: Codable {
     }
     
     var cleanName: String {
-        var clearString = name.replacingOccurrences(of: "_", with: " ")
-        return clearString.capitalized
+        return name.replacingOccurrences(of: "_", with: " ").capitalized
     }
 }
 

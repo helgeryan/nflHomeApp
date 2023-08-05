@@ -12,6 +12,10 @@
 		E672CDE92A7DBE3A00A1EFB1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E672CDE82A7DBE3A00A1EFB1 /* HomeView.swift */; };
 		E672CDEB2A7DBE5000A1EFB1 /* CoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E672CDEA2A7DBE5000A1EFB1 /* CoreView.swift */; };
 		E672CDED2A7EC33400A1EFB1 /* MockDailyTransactions.json in Resources */ = {isa = PBXBuildFile; fileRef = E672CDEC2A7EC33400A1EFB1 /* MockDailyTransactions.json */; };
+		E672CDEF2A7F0ADF00A1EFB1 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E672CDEE2A7F0ADF00A1EFB1 /* MainTabView.swift */; };
+		E672CDF12A7F0AFF00A1EFB1 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E672CDF02A7F0AFF00A1EFB1 /* HomeViewModel.swift */; };
+		E672CDF32A7F0B1C00A1EFB1 /* TransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E672CDF22A7F0B1C00A1EFB1 /* TransactionView.swift */; };
+		E672CDF52A7F0BE900A1EFB1 /* TransactionResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E672CDF42A7F0BE900A1EFB1 /* TransactionResponse.swift */; };
 		E6C2349F2A7D51ED00CDEF14 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = E6C2349E2A7D51ED00CDEF14 /* Alamofire */; };
 		E6C44A0B2A7D4CF100CCF161 /* nflStatAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C44A0A2A7D4CF100CCF161 /* nflStatAppApp.swift */; };
 		E6C44A0F2A7D4CF500CCF161 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6C44A0E2A7D4CF500CCF161 /* Assets.xcassets */; };
@@ -57,6 +61,10 @@
 		E672CDE82A7DBE3A00A1EFB1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		E672CDEA2A7DBE5000A1EFB1 /* CoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreView.swift; sourceTree = "<group>"; };
 		E672CDEC2A7EC33400A1EFB1 /* MockDailyTransactions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = MockDailyTransactions.json; sourceTree = "<group>"; };
+		E672CDEE2A7F0ADF00A1EFB1 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		E672CDF02A7F0AFF00A1EFB1 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		E672CDF22A7F0B1C00A1EFB1 /* TransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionView.swift; sourceTree = "<group>"; };
+		E672CDF42A7F0BE900A1EFB1 /* TransactionResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionResponse.swift; sourceTree = "<group>"; };
 		E6C44A072A7D4CF100CCF161 /* nflStatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nflStatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6C44A0A2A7D4CF100CCF161 /* nflStatAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nflStatAppApp.swift; sourceTree = "<group>"; };
 		E6C44A0E2A7D4CF500CCF161 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -112,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				E672CDE82A7DBE3A00A1EFB1 /* HomeView.swift */,
+				E672CDF02A7F0AFF00A1EFB1 /* HomeViewModel.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -164,6 +173,7 @@
 				E6C44A232A7D4F1100CCF161 /* LeagueLeaders */,
 				E6C44A272A7D4F1100CCF161 /* Schedule */,
 				E672CDEA2A7DBE5000A1EFB1 /* CoreView.swift */,
+				E672CDEE2A7F0ADF00A1EFB1 /* MainTabView.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -235,6 +245,7 @@
 				E6C44A312A7D4F1200CCF161 /* ScheduleResponse.swift */,
 				E6C44A322A7D4F1200CCF161 /* LeagueLeaderResponse.swift */,
 				E6C44A332A7D4F1200CCF161 /* HeirarchyResponse.swift */,
+				E672CDF42A7F0BE900A1EFB1 /* TransactionResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -256,6 +267,7 @@
 				E6C44A3A2A7D4F1200CCF161 /* SideMenuType.swift */,
 				E672CDE32A7DBD7100A1EFB1 /* TeamBasicView.swift */,
 				E672CDE52A7DBD9D00A1EFB1 /* GameRowView.swift */,
+				E672CDF22A7F0B1C00A1EFB1 /* TransactionView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -373,19 +385,23 @@
 				E6C44A4D2A7D4F1200CCF161 /* HeirarchyViewModel.swift in Sources */,
 				E6C44A532A7D4F1200CCF161 /* PlayerView.swift in Sources */,
 				E6C44A582A7D4F1200CCF161 /* LeagueLeaderResponse.swift in Sources */,
+				E672CDEF2A7F0ADF00A1EFB1 /* MainTabView.swift in Sources */,
 				E6C44A562A7D4F1200CCF161 /* DraftResponse.swift in Sources */,
 				E6C44A4E2A7D4F1200CCF161 /* LeagueLeadersViewModel.swift in Sources */,
 				E6C44A4F2A7D4F1200CCF161 /* LeagueLeadersView.swift in Sources */,
 				E6C44A592A7D4F1200CCF161 /* HeirarchyResponse.swift in Sources */,
 				E6C44A482A7D4F1200CCF161 /* ProspectRowView.swift in Sources */,
 				E6C44A612A7D4F1200CCF161 /* NFLApiAction.swift in Sources */,
+				E672CDF32A7F0B1C00A1EFB1 /* TransactionView.swift in Sources */,
 				E6C44A512A7D4F1200CCF161 /* FreeAgentRowView.swift in Sources */,
 				E6C44A5D2A7D4F1200CCF161 /* SideMenu.swift in Sources */,
 				E672CDEB2A7DBE5000A1EFB1 /* CoreView.swift in Sources */,
 				E6C44A5A2A7D4F1200CCF161 /* Color+extensions.swift in Sources */,
 				E6C44A492A7D4F1200CCF161 /* DraftViewModel.swift in Sources */,
+				E672CDF12A7F0AFF00A1EFB1 /* HomeViewModel.swift in Sources */,
 				E6C44A502A7D4F1200CCF161 /* LeagueLeaderRowView.swift in Sources */,
 				E672CDE92A7DBE3A00A1EFB1 /* HomeView.swift in Sources */,
+				E672CDF52A7F0BE900A1EFB1 /* TransactionResponse.swift in Sources */,
 				E6C44A5F2A7D4F1200CCF161 /* NFLRouter.swift in Sources */,
 				E672CDE62A7DBD9D00A1EFB1 /* GameRowView.swift in Sources */,
 				E6C44A4A2A7D4F1200CCF161 /* DraftView.swift in Sources */,
