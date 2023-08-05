@@ -7,14 +7,15 @@
 
 import SwiftUI
 
+@MainActor
 class DraftViewModel: ObservableObject {
     @Published var draft: DraftResponse?
     var year: Int = 2023
     init() {
-        NFLService().getDraft(year: year, completion: { draft in
-            self.draft = draft
-        })
+        Task {
+            if let draft = await NFLService().getDraft(year: year) {
+                self.draft = draft
+            }
+        }
     }
-    
-    
 }

@@ -7,12 +7,15 @@
 
 import SwiftUI
 
+@MainActor
 class HeirarchyViewModel: ObservableObject {
     @Published var heirarchy: HeirarchyResponse?
     init() {
-        NFLService().getHeirarchy(completion: { heirarchy in
-            self.heirarchy = heirarchy
-        })
+        Task {
+            if let heir = await NFLService().getHeirarchy() {
+                self.heirarchy = heir
+            }
+        }
     }
 }
 

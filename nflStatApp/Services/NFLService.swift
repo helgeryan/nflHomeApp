@@ -11,29 +11,29 @@ import Alamofire
 
 class NFLService {
     let manager = NFLNetworkManager()
-    func getDraft(year: Int, completion: @escaping (DraftResponse?) -> ()) {
+    func getDraft(year: Int) async -> DraftResponse? {
         let router = NFLApiAction.draft(year: year)
-        manager.makeRequest(router: router, useMockData: true, completion: completion)
+        return await manager.makeRequest(router: router, useMockData: true)
     }
     
-    func getSeasonSchedule(year: Int, completion: @escaping (ScheduleResponse?) -> ()) {
+    func getSeasonSchedule(year: Int) async -> ScheduleResponse? {
         let router = NFLApiAction.schedule(year: year)
-        manager.makeRequest(router: router, useMockData: true, completion: completion)
+        return await manager.makeRequest(router: router, useMockData: true)
     }
     
-    func getHeirarchy(completion: @escaping (HeirarchyResponse?) -> ()) {
+    func getHeirarchy() async -> HeirarchyResponse? {
         let router = NFLApiAction.heirarchy
-        manager.makeRequest(router: router, useMockData: true, completion: completion)
+        return await manager.makeRequest(router: router, useMockData: true)
     }
     
-    func getLeagueLeaders(year: Int, completion: @escaping (LeagueLeadersResponse?) -> ()) {
+    func getLeagueLeaders(year: Int) async -> LeagueLeadersResponse? {
         let router = NFLApiAction.leagueLeaders(year: year)
-        manager.makeRequest(router: router, useMockData: true, completion: completion)
+        return await manager.makeRequest(router: router, useMockData: true)
     }
     
-    func getTeam(teamId: String, completion: @escaping (Team?) -> ()) {
+    func getTeam(teamId: String) async -> Team? {
         let router = NFLApiAction.teamRoster(teamId: teamId)
-        manager.makeRequest(router: router, useMockData: true, completion: completion)
+        return await manager.makeRequest(router: router, useMockData: true)
     }
 }
 

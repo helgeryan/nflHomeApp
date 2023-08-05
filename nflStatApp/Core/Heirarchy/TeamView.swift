@@ -8,6 +8,7 @@
 import Foundation
 import SwiftUI
 
+@MainActor
 class TeamViewModel: ObservableObject {
     @Published var team: Team
     @Published var foregroundColor: Color = .black
@@ -18,12 +19,12 @@ class TeamViewModel: ObservableObject {
     }
     
     func fetchTeam() {
-        NFLService().getTeam(teamId: team.id, completion: { teamResponse in
-            if let teamResponse = teamResponse {
+        Task {
+            if let teamResponse = await NFLService().getTeam(teamId: team.id) {
                 self.team = teamResponse
                 self.setColors()
             }
-        })
+        }
     }
     
     func setColors() {

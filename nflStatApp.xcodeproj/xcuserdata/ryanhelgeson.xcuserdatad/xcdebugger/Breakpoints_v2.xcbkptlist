@@ -39,70 +39,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "64771719-140B-4376-B974-7C5950D21B47"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "nflStatApp/Core/Heirarchy/TeamView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
-            landmarkName = "fetchTeam()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "64771719-140B-4376-B974-7C5950D21B47 - 55e9f1e60bd3dc93"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;nflStatApp.Team&gt;) -&gt; () in nflStatApp.TeamViewModel.fetchTeam() -&gt; ()"
-                  moduleName = "nflStatApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/ryanhelgeson/Documents/nflstatapp/nflStatApp/nflStatApp/Core/Heirarchy/TeamView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "29"
-                  endingLineNumber = "29"
-                  offsetFromSymbolStart = "234">
-               </Location>
-               <Location
-                  uuid = "64771719-140B-4376-B974-7C5950D21B47 - 55e9f1e60bd3dc93"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;nflStatApp.Team&gt;) -&gt; () in nflStatApp.TeamViewModel.fetchTeam() -&gt; ()"
-                  moduleName = "nflStatApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/ryanhelgeson/Documents/nflstatapp/nflStatApp/nflStatApp/Core/Heirarchy/TeamView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "29"
-                  endingLineNumber = "29"
-                  offsetFromSymbolStart = "549">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "C22B78BC-1EEB-4AE9-9A2A-4930C76B8F5E"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "nflStatApp/Core/Heirarchy/TeamView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "23"
-            endingLineNumber = "23"
-            landmarkName = "fetchTeam()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "92D175D8-644E-498F-B339-A2CD731AC0F9"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -178,6 +114,116 @@
                   offsetFromSymbolStart = "41">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1E129B4F-A1E1-497D-8CE4-4A097B34F587"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "nflStatApp/Core/Heirarchy/TeamView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "fetchTeam()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1E129B4F-A1E1-497D-8CE4-4A097B34F587 - 865db54c6df3ae30"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in nflStatApp.TeamViewModel.fetchTeam() -&gt; ()"
+                  moduleName = "nflStatApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ryanhelgeson/Documents/nflstatapp/nflStatApp/nflStatApp/Core/Heirarchy/TeamView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "77">
+               </Location>
+               <Location
+                  uuid = "1E129B4F-A1E1-497D-8CE4-4A097B34F587 - f79f4315ca9d2911"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for closure #1 @Sendable () async -&gt; () in nflStatApp.TeamViewModel.fetchTeam() -&gt; ()"
+                  moduleName = "nflStatApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ryanhelgeson/Documents/nflstatapp/nflStatApp/nflStatApp/Core/Heirarchy/TeamView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "34">
+               </Location>
+               <Location
+                  uuid = "1E129B4F-A1E1-497D-8CE4-4A097B34F587 - 15437f29cfd4e232"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in nflStatApp.TeamViewModel.fetchTeam() -&gt; ()"
+                  moduleName = "nflStatApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ryanhelgeson/Documents/nflstatapp/nflStatApp/nflStatApp/Core/Heirarchy/TeamView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "90">
+               </Location>
+               <Location
+                  uuid = "1E129B4F-A1E1-497D-8CE4-4A097B34F587 - 15437f29cfd4e232"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in nflStatApp.TeamViewModel.fetchTeam() -&gt; ()"
+                  moduleName = "nflStatApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ryanhelgeson/Documents/nflstatapp/nflStatApp/nflStatApp/Core/Heirarchy/TeamView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "176">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "963C81BB-34BD-4DF4-9DEE-751D7F8D2F1C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "nflStatApp/Services/NFLNetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "makeRequest(router:useMockData:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CF69F7AA-0655-4750-827E-AE2420339CF2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "nflStatApp/Services/NFLNetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "makeRequest(router:useMockData:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

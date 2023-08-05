@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+@MainActor
 class SeasonScheduleViewModel: ObservableObject {
     @Published var schedule: ScheduleResponse?
     var year: Int = 2023 {
@@ -19,9 +20,11 @@ class SeasonScheduleViewModel: ObservableObject {
     }
     
     func fetchSeasonSchedule() {
-        NFLService().getSeasonSchedule(year: year, completion: { schedule in
-            self.schedule = schedule
-        })
+        Task {
+            if let sched = await NFLService().getSeasonSchedule(year: year) {
+                self.schedule = sched
+            }
+        }
     }
 }
 

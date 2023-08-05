@@ -8,12 +8,15 @@
 import Foundation
 import SwiftUI
 
+@MainActor
 class LeagueLeadersViewModel: ObservableObject {
     @Published var leagueLeaders: LeagueLeadersResponse?
     var year: Int = 2023
     init() {
-        NFLService().getLeagueLeaders(year: year, completion: { leagueLeaders in
-            self.leagueLeaders = leagueLeaders
-        })
+        Task {
+            if let leaders = await NFLService().getLeagueLeaders(year: year) {
+                self.leagueLeaders = leaders
+            }
+        }
     }
 }
