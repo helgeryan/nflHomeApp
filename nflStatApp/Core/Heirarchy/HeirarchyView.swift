@@ -7,6 +7,12 @@
 
 import SwiftUI
 
+struct HeirarchyTabView: View {
+    var body: some View {
+        MainTabView(sideMenuHomeTabName: "League", coreViewBackground: .white, content: AnyView(HeirarchyView()))
+    }
+}
+
 struct HeirarchyView: View {
     @StateObject var model: HeirarchyViewModel = HeirarchyViewModel()
     var body: some View {
@@ -16,7 +22,7 @@ struct HeirarchyView: View {
                     if let heirarchy = model.heirarchy {
                         HStack {
                             Spacer()
-                            Text(verbatim: "nfl Heirarchy")
+                            Text(verbatim: "NFL Heirarchy")
                                 .font(.title)
                                 .bold()
                                 .foregroundColor(.black)

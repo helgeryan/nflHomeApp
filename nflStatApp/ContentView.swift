@@ -18,19 +18,19 @@ struct ContentView: View {
     }
     var body: some View {
         TabView {
-            HomeView()
+            HomeTabView()
                 .tabItem{
                     Label("Home", systemImage: "house")
                 }
-            HeirarchyView()
+            HeirarchyTabView()
                 .tabItem{
                     Label("Teams", systemImage: "football.fill")
                 }
             
-            LeagueLeadersView()
-                .tabItem{
-                    Label("Leaders", systemImage: "trophy.fill")
-                }
+//            LeagueLeadersView()
+//                .tabItem{
+//                    Label("Leaders", systemImage: "trophy.fill")
+//                }
             
         }
         .tint(.white)

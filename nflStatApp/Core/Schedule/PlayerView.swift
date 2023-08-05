@@ -9,8 +9,19 @@ import SwiftUI
 
 struct PlayerView: View {
     var freeAgent: Player
+    @Environment(\.dismiss) private var dismiss
+    
     var body: some View {
         VStack {
+            HStack {
+                Button(action: {
+                    self.dismiss()
+                }, label: {
+                    Label("Back", systemImage: "chevron.left")
+                        .foregroundColor(.black)
+                })
+                Spacer()
+            }.padding()
             Image("nflLogo")
                 .frame(width: 176, height: 176)
                 .cornerRadius(88)
@@ -31,6 +42,8 @@ struct PlayerView: View {
                     .font(.title2)
                     .foregroundColor(.black)
             }
+            Spacer()
         }
+        .navigationBarBackButtonHidden(true)
     }
 }

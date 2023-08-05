@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct SideMenuView: View {
+    let sideMenuHomeTabName: String
     @Binding var selectedSideMenuTab: Int
     @Binding var presentSideMenu: Bool
     
@@ -23,9 +24,16 @@ struct SideMenuView: View {
                 VStack(alignment: .leading, spacing: 0) {
                     
                     ForEach(SideMenuRowType.allCases, id: \.self){ row in
-                        RowView(isSelected: selectedSideMenuTab == row.rawValue, imageName: row.iconName, title: row.title) {
-                            selectedSideMenuTab = row.rawValue
-                            presentSideMenu.toggle()
+                        if row == .home {
+                            RowView(isSelected: selectedSideMenuTab == row.rawValue, imageName: row.iconName, title: sideMenuHomeTabName) {
+                                selectedSideMenuTab = row.rawValue
+                                presentSideMenu.toggle()
+                            }
+                        } else {
+                            RowView(isSelected: selectedSideMenuTab == row.rawValue, imageName: row.iconName, title: row.title) {
+                                selectedSideMenuTab = row.rawValue
+                                presentSideMenu.toggle()
+                            }
                         }
                     }
 
