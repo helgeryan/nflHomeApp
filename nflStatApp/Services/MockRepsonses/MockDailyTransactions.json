@@ -1,0 +1,329 @@
+{
+    "league": {
+        "id": "3c6d318a-6164-4290-9bbc-bf9bb21cc4b8",
+        "name": "National Football League",
+        "alias": "NFL"
+    },
+    "start_time": "2023-08-05T04:00:00Z",
+    "end_time": "2023-08-06T03:59:59Z",
+    "players": [
+        {
+            "id": "aaf9cdda-8da8-4b3d-95bf-6fea8070a537",
+            "name": "Gavin Heslop",
+            "first_name": "Gavin",
+            "last_name": "Heslop",
+            "position": "CB",
+            "sr_id": "sr:player:1227964",
+            "transactions": [
+                {
+                    "id": "14573650-33ae-11ee-8adc-1b4fd50c725a",
+                    "desc": "The Cleveland Browns signed CB Gavin Heslop.",
+                    "effective_date": "2023-08-05",
+                    "last_modified": "2023-08-05T16:35:52Z",
+                    "transaction_type": "Signed",
+                    "transaction_code": "SGN",
+                    "transaction_year": 2023,
+                    "status_before": "UFA",
+                    "status_after": "ACT",
+                    "to_team": {
+                        "id": "d5a2eb42-8065-4174-ab79-0a6fa820e35e",
+                        "name": "Browns",
+                        "market": "Cleveland",
+                        "alias": "CLE",
+                        "sr_id": "sr:competitor:4417"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "a1820b20-ec70-11ed-95cf-7fdbecf36d73",
+            "name": "Zach Morton",
+            "first_name": "Zach",
+            "last_name": "Morton",
+            "position": "DL",
+            "sr_id": "sr:player:1270398",
+            "transactions": [
+                {
+                    "id": "506fb140-33ad-11ee-8566-07f6514a12a3",
+                    "desc": "The Detroit Lions waived DL Zach Morton.",
+                    "effective_date": "2023-08-05",
+                    "last_modified": "2023-08-05T16:30:17Z",
+                    "transaction_type": "Waived",
+                    "transaction_code": "WA",
+                    "transaction_year": 2023,
+                    "status_before": "ACT",
+                    "status_after": "UFA",
+                    "from_team": {
+                        "id": "c5a59daa-53a7-4de0-851f-fb12be893e9e",
+                        "name": "Lions",
+                        "market": "Detroit",
+                        "alias": "DET",
+                        "sr_id": "sr:competitor:4419"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "962bcc09-65ae-47e1-a3ba-39290a1e95c9",
+            "name": "Derrick Kelly II",
+            "first_name": "Derrick",
+            "last_name": "Kelly",
+            "position": "OL",
+            "sr_id": "sr:player:1218014",
+            "transactions": [
+                {
+                    "id": "5eb4d720-33ae-11ee-a120-812f71fdca5e",
+                    "desc": "The Cleveland Browns signed OL Derrick Kelly II.",
+                    "effective_date": "2023-08-05",
+                    "last_modified": "2023-08-05T16:37:51Z",
+                    "transaction_type": "Signed",
+                    "transaction_code": "SGN",
+                    "transaction_year": 2023,
+                    "status_before": "UFA",
+                    "status_after": "ACT",
+                    "to_team": {
+                        "id": "d5a2eb42-8065-4174-ab79-0a6fa820e35e",
+                        "name": "Browns",
+                        "market": "Cleveland",
+                        "alias": "CLE",
+                        "sr_id": "sr:competitor:4417"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "b5e01150-f32a-11ed-97d1-5b2d1ba2ed31",
+            "name": "Dylan Deatherage",
+            "first_name": "Dylan",
+            "last_name": "Deatherage",
+            "position": "T",
+            "sr_id": "sr:player:1237302",
+            "transactions": [
+                {
+                    "id": "66029940-33a9-11ee-a658-f79dd2ee8dc0",
+                    "desc": "The Houston Texans waived OT Dylan Deatherage.",
+                    "effective_date": "2023-08-05",
+                    "last_modified": "2023-08-05T16:02:38Z",
+                    "transaction_type": "Waived-Injury",
+                    "transaction_code": "WAI",
+                    "transaction_year": 2023,
+                    "status_before": "IR",
+                    "status_after": "UFA",
+                    "from_team": {
+                        "id": "82d2d380-3834-4938-835f-aec541e5ece7",
+                        "name": "Texans",
+                        "market": "Houston",
+                        "alias": "HOU",
+                        "sr_id": "sr:competitor:4324"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "49bf0cd8-c01f-4d31-b6f1-fdda02b4999f",
+            "name": "Terez Hall",
+            "first_name": "Terez",
+            "last_name": "Hall",
+            "position": "LB",
+            "sr_id": "sr:player:1220300",
+            "transactions": [
+                {
+                    "id": "834aeb90-33b0-11ee-9676-cdc68d8fc2b2",
+                    "desc": "The New England Patriots waived LB Terez Hall.",
+                    "effective_date": "2023-08-05",
+                    "last_modified": "2023-08-05T16:53:20Z",
+                    "transaction_type": "Waived-Injury",
+                    "transaction_code": "WAI",
+                    "transaction_year": 2023,
+                    "status_before": "IR",
+                    "status_after": "UFA",
+                    "from_team": {
+                        "id": "97354895-8c77-4fd4-a860-32e62ea7382a",
+                        "name": "Patriots",
+                        "market": "New England",
+                        "alias": "NE",
+                        "sr_id": "sr:competitor:4424"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "87f9b9a9-5362-4947-8fc4-3b718b00566a",
+            "name": "Justin Murray",
+            "first_name": "Justin",
+            "last_name": "Murray",
+            "position": "T",
+            "sr_id": "sr:player:989635",
+            "transactions": [
+                {
+                    "id": "9ec5a040-33ab-11ee-808f-530979fb97f7",
+                    "desc": "The Tennessee Titans signed OL Justin Murray.",
+                    "effective_date": "2023-08-05",
+                    "last_modified": "2023-08-05T16:18:12Z",
+                    "transaction_type": "Signed",
+                    "transaction_code": "SGN",
+                    "transaction_year": 2023,
+                    "status_before": "UFA",
+                    "status_after": "ACT",
+                    "to_team": {
+                        "id": "d26a1ca5-722d-4274-8f97-c92e49c96315",
+                        "name": "Titans",
+                        "market": "Tennessee",
+                        "alias": "TEN",
+                        "sr_id": "sr:competitor:367364"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "1a8230ec-fc21-4aff-9624-0f87add5f952",
+            "name": "Forrest Merrill",
+            "first_name": "Forrest",
+            "last_name": "Merrill",
+            "jersey": "68",
+            "position": "NT",
+            "sr_id": "sr:player:2198144",
+            "transactions": [
+                {
+                    "id": "b1b27c40-33ac-11ee-b2f9-f192a9a3e31d",
+                    "desc": "The Denver Broncos signed NT Forrest Merrill.",
+                    "effective_date": "2023-08-05",
+                    "last_modified": "2023-08-05T16:25:50Z",
+                    "transaction_type": "Signed",
+                    "transaction_code": "SGN",
+                    "transaction_year": 2023,
+                    "status_before": "UFA",
+                    "status_after": "ACT",
+                    "to_team": {
+                        "id": "ce92bd47-93d5-4fe9-ada4-0fc681e6caa0",
+                        "name": "Broncos",
+                        "market": "Denver",
+                        "alias": "DEN",
+                        "sr_id": "sr:competitor:4418"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "2b0e3931-07d2-4b03-9b28-489258465ac2",
+            "name": "Jeff Cotton",
+            "first_name": "Jeff",
+            "last_name": "Cotton",
+            "position": "WR",
+            "sr_id": "sr:player:1328056",
+            "transactions": [
+                {
+                    "id": "b50c7120-33b6-11ee-9044-af3c252ece57",
+                    "desc": "The Green Bay Packers waived WR Jeff Cotton.",
+                    "effective_date": "2023-08-05",
+                    "last_modified": "2023-08-05T17:37:38Z",
+                    "transaction_type": "Waived-Injury",
+                    "transaction_code": "WAI",
+                    "transaction_year": 2023,
+                    "status_before": "IR",
+                    "status_after": "UFA",
+                    "from_team": {
+                        "id": "a20471b4-a8d9-40c7-95ad-90cc30e46932",
+                        "name": "Packers",
+                        "market": "Green Bay",
+                        "alias": "GB",
+                        "sr_id": "sr:competitor:4420"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "76d42020-f0df-11ed-99b5-515caf177447",
+            "name": "Bennett Williams",
+            "first_name": "Bennett",
+            "last_name": "Williams",
+            "position": "SAF",
+            "sr_id": "sr:player:1270876",
+            "transactions": [
+                {
+                    "id": "e0052130-33af-11ee-b469-adc38e02ff1f",
+                    "desc": "The Miami Dolphins waived DB Bennett Williams.",
+                    "effective_date": "2023-08-05",
+                    "last_modified": "2023-08-05T16:48:51Z",
+                    "transaction_type": "Waived-Injury",
+                    "transaction_code": "WAI",
+                    "transaction_year": 2023,
+                    "status_before": "IR",
+                    "status_after": "UFA",
+                    "from_team": {
+                        "id": "4809ecb0-abd3-451d-9c4a-92a90b83ca06",
+                        "name": "Dolphins",
+                        "market": "Miami",
+                        "alias": "MIA",
+                        "sr_id": "sr:competitor:4287"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "ed37f30a-de45-4af6-b7b5-5f218bf786ab",
+            "name": "Yasir Durant",
+            "first_name": "Yasir",
+            "last_name": "Durant",
+            "position": "T",
+            "sr_id": "sr:player:1236782",
+            "transactions": [
+                {
+                    "id": "e07f1380-33ac-11ee-9a58-71889a1dedc7",
+                    "desc": "The Denver Broncos waived OL Yasir Durant.",
+                    "effective_date": "2023-08-05",
+                    "last_modified": "2023-08-05T16:27:34Z",
+                    "transaction_type": "Waived-Injury",
+                    "transaction_code": "WAI",
+                    "transaction_year": 2023,
+                    "status_before": "ACT",
+                    "status_after": "UFA",
+                    "from_team": {
+                        "id": "ce92bd47-93d5-4fe9-ada4-0fc681e6caa0",
+                        "name": "Broncos",
+                        "market": "Denver",
+                        "alias": "DEN",
+                        "sr_id": "sr:competitor:4418"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "e983b200-d396-11ec-96a0-c3471a31202c",
+            "name": "Ethan Fernea",
+            "first_name": "Ethan",
+            "last_name": "Fernea",
+            "jersey": "84",
+            "position": "WR",
+            "sr_id": "sr:player:1180428",
+            "transactions": [
+                {
+                    "id": "fc1547d0-3399-11ee-ae2c-876dd21bb13d",
+                    "desc": "The Indianapolis Colts placed WR Ethan Fernea on injured reserve.",
+                    "effective_date": "2023-08-05",
+                    "last_modified": "2023-08-05T14:12:05Z",
+                    "transaction_type": "Placed on Injured Reserve",
+                    "transaction_code": "IR",
+                    "transaction_year": 2023,
+                    "status_before": "ACT",
+                    "status_after": "IR",
+                    "from_team": {
+                        "id": "82cf9565-6eb9-4f01-bdbd-5aa0d472fcd9",
+                        "name": "Colts",
+                        "market": "Indianapolis",
+                        "alias": "IND",
+                        "sr_id": "sr:competitor:4421"
+                    },
+                    "to_team": {
+                        "id": "82cf9565-6eb9-4f01-bdbd-5aa0d472fcd9",
+                        "name": "Colts",
+                        "market": "Indianapolis",
+                        "alias": "IND",
+                        "sr_id": "sr:competitor:4421"
+                    }
+                }
+            ]
+        }
+    ],
+    "_comment": "Generation started @ 2023-08-05 17:44:44 UTC ended @ 2023-08-05 17:44:44 UTC"
+}

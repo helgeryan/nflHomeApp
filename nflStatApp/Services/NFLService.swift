@@ -35,6 +35,28 @@ class NFLService {
         let router = NFLApiAction.teamRoster(teamId: teamId)
         return await manager.makeRequest(router: router, useMockData: true)
     }
+    
+    func getDailyTransactions(date: Date) async -> DailyTransactionResponse? {
+        let router = NFLApiAction.dailyTransactions(date: date)
+        return await manager.makeRequest(router: router, useMockData: true)
+    }
+}
+
+struct DailyTransactionResponse: Codable {
+    let league: League
+    let players: [Player]
 }
 
 
+struct Transcation: Codable {
+    let id: String
+    let desc: String
+    let effective_date: String
+    let last_modified: String
+    let transaction_type: String
+    let transaction_year: Int
+    let status_before: String
+    let status_after: String
+    let to_team: Team?
+    let from_team: Team?
+}

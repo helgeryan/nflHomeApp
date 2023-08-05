@@ -150,6 +150,7 @@ struct Player: Codable {
     let top_prospect: Bool?
     let updated: String?
     let rookie_year: Int?
+    let transactions: [Transcation]?
     
     func getName() -> String {
         return name ?? full_name ?? (first_name + " " + last_name)

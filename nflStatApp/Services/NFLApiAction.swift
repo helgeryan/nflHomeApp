@@ -14,6 +14,7 @@ enum NFLApiAction {
     case schedule(year: Int)
     case heirarchy
     case teamRoster(teamId: String)
+    case dailyTransactions(date: Date)
 }
 
 extension NFLApiAction: NFLRouter {
@@ -29,6 +30,8 @@ extension NFLApiAction: NFLRouter {
             return "MockHeirarchy"
         case .teamRoster:
             return "MockTeamRoster"
+        case .dailyTransactions:
+            return "MockDailyTransactions"
         }
     }
     
@@ -43,6 +46,8 @@ extension NFLApiAction: NFLRouter {
         case .heirarchy:
             return .get
         case .teamRoster:
+            return .get
+        case .dailyTransactions:
             return .get
         }
     }
@@ -59,6 +64,9 @@ extension NFLApiAction: NFLRouter {
             return "trial/v7/en/league/hierarchy.json?api_key=eegavg9txm5q62k8r3zrkpxm"
         case.teamRoster(let teamId):
             return "trial/v7/en/teams/\(teamId)/full_roster.json?api_key=eegavg9txm5q62k8r3zrkpxm"
+        case .dailyTransactions(let date):
+            let components = Calendar.current.dateComponents([.year, .month, .day], from: date)
+            return "trial/v7/en/league/\(components.year!)/\(components.month!)/\(components.day!))/transactions.json?api_key=eegavg9txm5q62k8r3zrkpxm"
         }
     }
     
@@ -69,7 +77,8 @@ extension NFLApiAction: NFLRouter {
         case .leagueLeaders,
                 .schedule,
                 .heirarchy,
-                .teamRoster:
+                .teamRoster,
+                .dailyTransactions:
             return "https://api.sportradar.us/nfl/official/"
         }
     }

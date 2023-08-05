@@ -44,8 +44,9 @@ struct MainTabView: View {
 }
 
 struct HomeView: View {
+    @StateObject var model: HomeViewModel = HomeViewModel()
     var body: some View {
-        VStack {
+        ScrollView {
             Text(verbatim: "NFL Home")
                 .font(.title)
                 .bold()
@@ -67,7 +68,70 @@ struct HomeView: View {
                 .bold()
                 .foregroundColor(.gray)
                 .multilineTextAlignment(.center)
+            Text("Today's News")
+                .foregroundColor(.white)
+                .font(.title3)
+                .fontWeight(.bold)
+            VStack(spacing: 1) {
+                ForEach(model.transactions, id: \.id) { transaction in
+                    TranscationView(transaction: transaction)
+                }
+            }
+            .clipped()
+            .cornerRadius(10)
+            .padding(.horizontal)
+        }
+        Spacer()
+    }
+}
+
+struct TranscationView: View {
+    let transaction: Transcation
+    var body: some View {
+        HStack {
+            if let team = transaction.from_team {
+                Image(team.name)
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 30, height: 30)
+                    .padding(6)
+                if let to_team = transaction.to_team, to_team.id != team.id {
+                    Image(to_team.name)
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 30, height: 30)
+                }
+            } else if let team = transaction.to_team {
+                Image(team.name)
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 30, height: 30)
+                    .padding(6)
+            }
+            Text(transaction.desc)
+                .font(.system(size: 12))
+                .fontWeight(.semibold)
             Spacer()
+        }
+        .background(Color.white)
+    }
+}
+
+@MainActor
+class HomeViewModel: ObservableObject {
+    @Published var transactions: [Transcation] = []
+    
+    init() {
+        Task {
+            if let transactionResponse = await NFLService().getDailyTransactions(date: Date()) {
+                var transactionArray:[Transcation] = []
+                for player in transactionResponse.players {
+                    if let trans = player.transactions {
+                        transactionArray.append(contentsOf: trans)
+                    }
+                }
+                self.transactions = transactionArray
+            }
         }
     }
 }
