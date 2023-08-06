@@ -8,13 +8,13 @@
 import SwiftUI
 
 struct FreeAgentRowView: View {
-    let freeAgent: Player
+    let player: Player
     var body: some View {
             NavigationLink(destination: {
-                PlayerView(freeAgent: freeAgent)
+                PlayerView(model: PlayerViewModel(player: player))
             }, label: {
                 VStack(alignment: .leading) {
-                    Text("\(freeAgent.getName()) - \(freeAgent.position)")
+                    Text("\(player.getName()) - \(player.position)")
                         .foregroundColor(.black)
                         .font(.system(size: 16))
                         .fontWeight(.bold)

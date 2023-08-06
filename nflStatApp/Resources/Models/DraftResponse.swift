@@ -8,15 +8,25 @@
 import Foundation
 
 struct Draft: Codable {
-    let id: String
+    let id: String?
     let year: Int
     let start_date: String
     let end_date: String
     let status: String
-    let league: League
-    let broadcast: BroadCast
-    let venue: Venue
+    let league: League?
+    let broadcast: BroadCast?
+    let venue: Venue?
 }
+
+
+struct PlayerDraft: Codable {
+    let id: String?
+    let year: Int
+    let round: Int
+    let number: Int
+    let team: Team?
+}
+
 
 struct League: Codable {
     let id: String
@@ -151,6 +161,9 @@ struct Player: Codable {
     let updated: String?
     let rookie_year: Int?
     let transactions: [Transcation]?
+    let draft: PlayerDraft?
+    let team: Team?
+    let seasons: [Season]?
     
     func getName() -> String {
         return name ?? full_name ?? (first_name + " " + last_name)

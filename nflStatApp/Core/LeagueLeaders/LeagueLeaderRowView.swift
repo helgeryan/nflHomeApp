@@ -12,7 +12,7 @@ struct LeagueLeaderRowView: View {
     var body: some View {
         let leader = category.ranks.first!
         NavigationLink(destination: {
-            PlayerView(freeAgent: leader.player)
+            PlayerView(model: PlayerViewModel(player: leader.player))
         }, label: {
             VStack(alignment: .center, spacing: 0) {
                 HStack {

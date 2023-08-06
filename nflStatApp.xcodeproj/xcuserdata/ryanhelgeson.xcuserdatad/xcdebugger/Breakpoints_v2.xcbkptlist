@@ -226,5 +226,99 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AE094C9A-6AA9-47FD-AECC-3C89EBA81AC7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "nflStatApp/Core/Schedule/PlayerView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "fetchPlayer()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AE094C9A-6AA9-47FD-AECC-3C89EBA81AC7 - 408e0d860a85a2d6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in nflStatApp.PlayerViewModel.fetchPlayer() -&gt; ()"
+                  moduleName = "nflStatApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ryanhelgeson/Documents/nflstatapp/nflStatApp/nflStatApp/Core/Schedule/PlayerView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "77">
+               </Location>
+               <Location
+                  uuid = "AE094C9A-6AA9-47FD-AECC-3C89EBA81AC7 - b2bfd21fce16f1bc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for closure #1 @Sendable () async -&gt; () in nflStatApp.PlayerViewModel.fetchPlayer() -&gt; ()"
+                  moduleName = "nflStatApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ryanhelgeson/Documents/nflstatapp/nflStatApp/nflStatApp/Core/Schedule/PlayerView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "34">
+               </Location>
+               <Location
+                  uuid = "AE094C9A-6AA9-47FD-AECC-3C89EBA81AC7 - b41cf9dbb4be66d8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in nflStatApp.PlayerViewModel.fetchPlayer() -&gt; ()"
+                  moduleName = "nflStatApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ryanhelgeson/Documents/nflstatapp/nflStatApp/nflStatApp/Core/Schedule/PlayerView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "90">
+               </Location>
+               <Location
+                  uuid = "AE094C9A-6AA9-47FD-AECC-3C89EBA81AC7 - b41cf9dbb4be66d8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in nflStatApp.PlayerViewModel.fetchPlayer() -&gt; ()"
+                  moduleName = "nflStatApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ryanhelgeson/Documents/nflstatapp/nflStatApp/nflStatApp/Core/Schedule/PlayerView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "176">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "61FF4BDF-5693-4B23-8428-04CD24E16C65"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "nflStatApp/Core/Schedule/PlayerView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "fetchPlayer()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

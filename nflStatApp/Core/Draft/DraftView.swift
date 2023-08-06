@@ -18,14 +18,16 @@ struct DraftView: View {
                             .font(.title)
                             .bold()
                             .foregroundColor(.white)
-                        if let state = draft.draft.venue.state {
-                            Text(verbatim: "\(draft.draft.venue.name) \(draft.draft.venue.city), \(state)")
-                                .font(.title2)
-                                .foregroundColor(.gray)
-                        } else {
-                            Text(verbatim: "\(draft.draft.venue.name) \(draft.draft.venue.city)")
-                                .font(.title2)
-                                .foregroundColor(.gray)
+                        if let venue = draft.draft.venue {
+                            if let state = venue.state {
+                                Text(verbatim: "\(venue.name) \(venue.city), \(state)")
+                                    .font(.title2)
+                                    .foregroundColor(.gray)
+                            } else {
+                                Text(verbatim: "\(venue.name) \(venue.city)")
+                                    .font(.title2)
+                                    .foregroundColor(.gray)
+                            }
                         }
                         
                         List {

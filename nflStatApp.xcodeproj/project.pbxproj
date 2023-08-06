@@ -16,6 +16,7 @@
 		E672CDF12A7F0AFF00A1EFB1 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E672CDF02A7F0AFF00A1EFB1 /* HomeViewModel.swift */; };
 		E672CDF32A7F0B1C00A1EFB1 /* TransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E672CDF22A7F0B1C00A1EFB1 /* TransactionView.swift */; };
 		E672CDF52A7F0BE900A1EFB1 /* TransactionResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E672CDF42A7F0BE900A1EFB1 /* TransactionResponse.swift */; };
+		E672CDF72A7F0E0000A1EFB1 /* MockPlayerProfile.json in Resources */ = {isa = PBXBuildFile; fileRef = E672CDF62A7F0E0000A1EFB1 /* MockPlayerProfile.json */; };
 		E6C2349F2A7D51ED00CDEF14 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = E6C2349E2A7D51ED00CDEF14 /* Alamofire */; };
 		E6C44A0B2A7D4CF100CCF161 /* nflStatAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C44A0A2A7D4CF100CCF161 /* nflStatAppApp.swift */; };
 		E6C44A0F2A7D4CF500CCF161 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6C44A0E2A7D4CF500CCF161 /* Assets.xcassets */; };
@@ -65,6 +66,7 @@
 		E672CDF02A7F0AFF00A1EFB1 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		E672CDF22A7F0B1C00A1EFB1 /* TransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionView.swift; sourceTree = "<group>"; };
 		E672CDF42A7F0BE900A1EFB1 /* TransactionResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionResponse.swift; sourceTree = "<group>"; };
+		E672CDF62A7F0E0000A1EFB1 /* MockPlayerProfile.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MockPlayerProfile.json; sourceTree = "<group>"; };
 		E6C44A072A7D4CF100CCF161 /* nflStatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nflStatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6C44A0A2A7D4CF100CCF161 /* nflStatAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nflStatAppApp.swift; sourceTree = "<group>"; };
 		E6C44A0E2A7D4CF500CCF161 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -287,6 +289,7 @@
 		E6C44A402A7D4F1200CCF161 /* MockRepsonses */ = {
 			isa = PBXGroup;
 			children = (
+				E672CDF62A7F0E0000A1EFB1 /* MockPlayerProfile.json */,
 				E6C44A412A7D4F1200CCF161 /* MockHeirarchy.json */,
 				E6C44A422A7D4F1200CCF161 /* MockDraftResponse.json */,
 				E6C44A432A7D4F1200CCF161 /* MockStats.json */,
@@ -363,6 +366,7 @@
 			files = (
 				E6C44A122A7D4CF500CCF161 /* Preview Assets.xcassets in Resources */,
 				E672CDED2A7EC33400A1EFB1 /* MockDailyTransactions.json in Resources */,
+				E672CDF72A7F0E0000A1EFB1 /* MockPlayerProfile.json in Resources */,
 				E6C44A552A7D4F1200CCF161 /* Preview Assets.xcassets in Resources */,
 				E6C44A662A7D4F1200CCF161 /* MockSchedule.json in Resources */,
 				E6C44A672A7D4F1200CCF161 /* MockTeamRoster.json in Resources */,

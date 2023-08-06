@@ -40,4 +40,9 @@ class NFLService {
         let router = NFLApiAction.dailyTransactions(date: date)
         return await manager.makeRequest(router: router, useMockData: true)
     }
+    
+    func getPlayerProfile(playerId: String) async -> Player? {
+        let router = NFLApiAction.playerProfile(playerId: playerId)
+        return await manager.makeRequest(router: router, useMockData: true)
+    }
 }
