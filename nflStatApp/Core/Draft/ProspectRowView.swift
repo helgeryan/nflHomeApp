@@ -15,10 +15,16 @@ struct ProspectRowView: View {
             PlayerView(model: PlayerViewModel(player: pick.prospect))
         }, label: {
             VStack(alignment: .leading) {
-                Text("R\(round.number):P\(pick.number) - \(pick.team.market) \(pick.team.name)")
-                    .foregroundColor(.black)
-                    .font(.system(size: 14))
-                    .fontWeight(.regular)
+                HStack {
+                    Text("R\(round.number):P\(pick.number) - \(pick.team.market) \(pick.team.name)")
+                        .foregroundColor(.black)
+                        .font(.system(size: 14))
+                        .fontWeight(.regular)
+                    Image(pick.team.name)
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 20, height: 20)
+                }
                 Text(pick.prospect.name ?? pick.prospect.full_name ?? "\(pick.prospect.first_name) \(pick.prospect.last_name)")
                     .foregroundColor(.black)
                     .font(.system(size: 16))
