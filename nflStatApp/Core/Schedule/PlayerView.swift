@@ -40,11 +40,7 @@ struct PlayerView: View {
                 })
                 Spacer()
             }.padding()
-            Image("nflLogo")
-                .frame(width: 176, height: 176)
-                .cornerRadius(88)
-                .clipped()
-                .scaledToFit()
+            
             Text(verbatim: model.player.getName())
                 .font(.title)
                 .bold()
@@ -73,43 +69,69 @@ struct PlayerView: View {
 struct StatsView: View {
     var seasons: [Season]
     
-    var atts: [String] = [
-        "Year",
-        "Att",
-        "Cmp",
-        "Cmp%",
-        "Yds",
-        "TDs",
-        "Long",
-        "Int",
-        "Long TD",
-        "Rat"
-    ]
-    
     var body: some View {
         ScrollView {
             ScrollView(.horizontal) {
-                VStack(alignment: .leading, spacing: 0) {
-                    HStack {
-                        ForEach(atts, id: \.self, content: { att in
-                            Text(att)
-                                .frame(width: 80)
-                                .foregroundColor(.white)
-                        })
-                    }
-                    .background(Color.nfl)
-                    .padding(.bottom , 2)
+                VStack(alignment: .leading) {
                     
-                    ForEach(seasons, id: \.id) { season in
-                        if let teams = season.teams, season.type == "REG" {
-                            PassingStatsView(teams: teams, year: season.year)
-                                .padding(.bottom ,2)
+                    Text("Passing")
+                        .foregroundColor(.black)
+                        .bold()
+                        .font(.title3)
+                        .padding(.horizontal)
+                    VStack(alignment: .leading, spacing: 0) {
+                        StatHeaderView(statType: .pass)
+                        
+                        ForEach(seasons, id: \.id) { season in
+                            if let teams = season.teams, season.type == "REG" {
+                                PassingStatsView(teams: teams, year: season.year)
+                                    .padding(.bottom ,2)
+                            }
                         }
                     }
+                    .background(Color(hex: "EEEEEE"))
+                    .cornerRadius(12)
+                    .padding()
+                    
+                    
+                    Text("Rushing")
+                        .foregroundColor(.black)
+                        .bold()
+                        .font(.title3)
+                        .padding(.horizontal)
+                    
+                    VStack(alignment: .leading, spacing: 0) {
+                        StatHeaderView(statType: .rush)
+                        ForEach(seasons, id: \.id) { season in
+                            if let teams = season.teams, season.type == "REG" {
+                                RushingStatsView(teams: teams, year: season.year)
+                                    .padding(.bottom ,2)
+                            }
+                        }
+                    }
+                    .background(Color(hex: "EEEEEE"))
+                    .cornerRadius(12)
+                    .padding()
+                    
+                    Text("Receiving")
+                        .foregroundColor(.black)
+                        .bold()
+                        .font(.title3)
+                        .padding(.horizontal)
+                    
+                    VStack(alignment: .leading, spacing: 0) {
+                        StatHeaderView(statType: .receive)
+                        ForEach(seasons, id: \.id) { season in
+                            if let teams = season.teams, season.type == "REG" {
+                                ReceivingStatsView(teams: teams, year: season.year)
+                                    .padding(.bottom ,2)
+                            }
+                        }
+                    }
+                    .background(Color(hex: "EEEEEE"))
+                    .cornerRadius(12)
+                    .padding()
                 }
-                .background(Color(hex: "EEEEEE"))
-                .cornerRadius(12)
-                .padding()
             }
         }
     }
@@ -117,6 +139,7 @@ struct StatsView: View {
 
 struct PassingStatsView: View {
     var teams: [TeamSeasonStats]
+    
     var year: Int
     var body: some View {
         ForEach(teams, id: \.id) { team in
@@ -132,6 +155,86 @@ struct PassingStatsView: View {
                     StatView(stat: passingStats.interceptions)
                     StatView(stat: passingStats.longest_touchdown)
                     StatView(stat: passingStats.rating)
+                }
+            }
+        }
+    }
+}
+
+enum StatType {
+    case rush
+    case pass
+    case receive
+    
+    var attributes: [String] {
+        switch self {
+        case .pass:
+            return [ "Year",  "Att", "Cmp", "Cmp%", "Yds", "TDs", "Long", "Int", "Long TD", "Rat"]
+        case .receive:
+            return [ "Year",  "Tar", "Rec", "Yds", "TDs", "Long", "Long TD", "RZ Tar"]
+        case .rush:
+            return [ "Year", "Att", "Yds", "TDs", "Long", "Long TD", "RZ Att"]
+        }
+    }
+}
+
+
+struct StatHeaderView: View {
+    
+    var statType: StatType
+    
+    var body: some View {
+        HStack {
+            ForEach(statType.attributes, id: \.self, content: { att in
+                Text(att)
+                    .frame(width: 80)
+                    .foregroundColor(.white)
+                    .bold()
+                    .padding(.bottom, 2)
+            })
+        }
+        .background(Color.nfl)
+        .padding(.bottom , 2)
+        
+    }
+}
+
+struct RushingStatsView: View {
+    var teams: [TeamSeasonStats]
+    var year: Int
+    var body: some View {
+        
+        ForEach(teams, id: \.id) { team in
+            if let rushingStarts = team.statistics.rushing {
+                HStack {
+                    StatView(stat: year)
+                    StatView(stat: rushingStarts.attempts)
+                    StatView(stat: rushingStarts.yards)
+                    StatView(stat: rushingStarts.touchdowns)
+                    StatView(stat: rushingStarts.longest)
+                    StatView(stat: rushingStarts.longest_touchdown)
+                    StatView(stat: rushingStarts.redzone_attempts)
+                }
+            }
+        }
+    }
+}
+
+struct ReceivingStatsView: View {
+    var teams: [TeamSeasonStats]
+    var year: Int
+    var body: some View {
+        ForEach(teams, id: \.id) { team in
+            if let receivingStats = team.statistics.receiving {
+                HStack {
+                    StatView(stat: year)
+                    StatView(stat: receivingStats.targets)
+                    StatView(stat: receivingStats.receptions)
+                    StatView(stat: receivingStats.yards)
+                    StatView(stat: receivingStats.touchdowns)
+                    StatView(stat: receivingStats.longest)
+                    StatView(stat: receivingStats.longest_touchdown)
+                    StatView(stat: receivingStats.redzone_targets)
                 }
             }
         }
