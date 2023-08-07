@@ -16,7 +16,8 @@ struct ProspectRowView: View {
         }, label: {
             VStack(alignment: .leading) {
                 HStack {
-                    Text("R\(round.number):P\(pick.number) - \(pick.team.market) \(pick.team.name)")
+                    let pickCount = (round.number - 1) * 32
+                    Text("R\(round.number):P\(pickCount + pick.number) - \(pick.team.market) \(pick.team.name)")
                         .foregroundColor(.black)
                         .font(.system(size: 14))
                         .fontWeight(.regular)
